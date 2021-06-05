@@ -10,7 +10,7 @@ function Footer() {
           <div class="content-header">
           </div>
           <div class="content-body">
-            <p>Copyright AUSTIN SCHROEDER 2021</p>
+            <p>&copy; AUSTIN SCHROEDER 2021</p>
           </div>
         </div>
         <div class="side-content"></div>

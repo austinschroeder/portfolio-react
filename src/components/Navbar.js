@@ -1,7 +1,7 @@
 function NavBar() {
     return(
         // <!-- BEGIN NAVBAR -->
-    <div class="navbar">
+    <div className="navbar">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>

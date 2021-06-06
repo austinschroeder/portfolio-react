@@ -39,7 +39,7 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #054c61; 
+  background: #054c61 url(../images/gradient-bkgrnd.png) ; 
   margin-bottom: 0; 
 
   display: flex;
@@ -109,6 +109,13 @@ body {
   /*sets up flexbox*/
   display: flex;
   flex-direction: column;
+}
+
+.bgflipped {
+  /* background: url('../images/gradient-bkgrnd-flipped.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 .row {
@@ -216,7 +223,7 @@ h4 {
 
 .project-image {
   flex: 1 0 auto;
-  /* overflow:hidden; */
+  align-items: center;
   
 }
 
@@ -226,7 +233,8 @@ h4 {
   border-bottom-left-radius: 5px;
   border-right: #054b6170 solid 1px;
   width: 250px;
-  height: 270px;
+  height: 250px;
+  object-fit: contain;
 }
 
 .project-content {

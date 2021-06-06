@@ -1,38 +1,47 @@
+// **LIVES IN DIV className=CONTAINER**
 
-// **LIVES IN DIV CLASS=CONTAINER**
+const skillNames = [
+  "Javascript",
+  "HTML",
+  "CSS",
+  "React",
+  "Node.js",
+  "Bootstrap",
+  "jQuery",
+  "Express",
+  "Mongo",
+  "MongoDB",
+  "Python",
+  "Django",
+  "PostgreSQL",
+];
 
 function Skills() {
-    return(
-        // <!-- BEGIN SKILLS -->
-      <div class="row white box-shadow">
-        <div class="side-content"></div>
-        <div class="main-content">
-          <div class="content-header">
-            <a class="anchor" name="skills"></a>
-            <h2>Skills</h2>
-          </div>
-          <div class="content-body">
-            <ul class="ul-skills">
-              <li class="li-skills">Javascript</li>
-              <li class="li-skills">HTML</li>
-              <li class="li-skills">CSS</li>
-              <li class="li-skills">React</li>
-              <li class="li-skills">Node.js</li>
-              <li class="li-skills">Bootstrap</li>
-              <li class="li-skills">jQuery</li>
-              <li class="li-skills">Express</li>
-              <li class="li-skills">Mongo</li>
-              <li class="li-skills">MongoDB</li>
-              <li class="li-skills">Python</li>
-              <li class="li-skills">Django</li>
-              <li class="li-skills">PostgreSQL</li>
-            </ul>
-          </div>
+  return (
+    // <!-- BEGIN SKILLS -->
+    <div className="row white box-shadow">
+      <div className="side-content"></div>
+      <div className="main-content">
+        <div className="content-header">
+          <a className="anchor" name="skills"></a>
+          <h2>Skills</h2>
         </div>
-        <div class="side-content"></div>
+        <div className="content-body">
+          <ul className="ul-skills">
+            {skillNames.map((skillName) => {
+              return (
+                <li key={skillName} className="li-skills">
+                  {skillName}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
+      <div className="side-content"></div>
+    </div>
     //   <!-- END SKILLS -->
-    )
-};
+  );
+}
 
 export default Skills;

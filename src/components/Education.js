@@ -1,34 +1,34 @@
 
-// **LIVES IN DIV CLASS=CONTAINER**
+// **LIVES IN DIV className=CONTAINER**
 
 function Education() {
     return(
         // <!-- BEGIN EDUCATION -->
-      <div class="row white box-shadow">
-        <div class="side-content"></div>
-        <div class="main-content">
-          <div class="content-header">
-            <a class="anchor" name="education"></a>
+      <div className="row white box-shadow">
+        <div className="side-content"></div>
+        <div className="main-content">
+          <div className="content-header">
+            <a className="anchor" name="education"></a>
             <h2>Education</h2>
           </div>
-          <div class="content-body">
+          <div className="content-body">
 
             {/* <!-- EDUCATION 1 --> */}
-            <div class="card">
-              <div class="card-header">
-                <h4>General Assembly <span class="job-title">2021</span></h4>
+            <div className="card">
+              <div className="card-header">
+                <h4>General Assembly <span className="job-title">2021</span></h4>
               </div>
-              <div class="card-content">
+              <div className="card-content">
                   <p>Software Engineering Immersive</p>
                 <p>Full-time, full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies.</p>
               </div>
             </div>
             {/* <!-- EDUCATION 2 --> */}
-            <div class="card">
-              <div class="card-header">
-                <h4>Full Sail <span class="job-title">2005-2007</span></h4>
+            <div className="card">
+              <div className="card-header">
+                <h4>Full Sail <span className="job-title">2005-2007</span></h4>
               </div>
-              <div class="card-content">
+              <div className="card-content">
                   <p>Software Engineering Immersive</p>
                     <p>-Completed my Bachelors Degree with honors for entertainment business and audio engineering.
                     <p>-Perfect Attendance award</p>
@@ -38,7 +38,7 @@ function Education() {
             
           </div>
         </div>
-        <div class="side-content"></div>
+        <div className="side-content"></div>
       </div>
     //   <!-- END EDUCATION -->
     )

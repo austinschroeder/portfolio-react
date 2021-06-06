@@ -32,7 +32,7 @@ function Contact() {
         </div>
         <div className="side-content"></div>
       </div>
-    //   {/* END CONTACT </div> */}
+    //   {/* END CONTACT --></div> */}
     )
 };
 

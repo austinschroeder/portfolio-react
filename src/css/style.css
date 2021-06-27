@@ -40,6 +40,8 @@ body {
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
   background: #054c61 url(../images/gradient-bkgrnd.png) ; 
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-bottom: 0; 
 
   display: flex;
@@ -221,7 +223,7 @@ h4 {
 }
 
 .project-image {
-  flex: 1 0 auto;
+  /* flex: 1 0 auto; */
   align-items: center;
   
 }

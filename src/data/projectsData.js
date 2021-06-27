@@ -5,7 +5,7 @@ const projects = [
         name: 'Melty',
         image: 'https://zipclinic.com/wp-content/uploads/2019/12/plant.jpg',
         description: 'Melty is a site for customers interested in finding delicious plant-based cheeses in their areas. They are able to find out information about top brands of plant-based cheeses, read user reviews, and submit their own reviews, including a picture URL of the product.',
-        link: 'Link Text',
+        link: 'https://melty-plant-based.herokuapp.com/',
         
     },
     {
@@ -20,7 +20,7 @@ const projects = [
         image: 'https://www.pngitem.com/pimgs/m/625-6251290_nic-cage-face-png-nicolas-cage-high-resolution.png',
         description: 'Cage DB is a site designed for fans of Nicolas Cage. Visit Cage DB to catch up on all the comings and goings of the actor, Nic Cage.  Technologies Used: Pyhton3, Django, HTML, CSS-Materialize.',
 
-        link: 'Link Text',
+        link: 'https://cage-db.herokuapp.com/',
         
     },
 

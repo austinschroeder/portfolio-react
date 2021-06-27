@@ -247,6 +247,31 @@ h4 {
   flex-direction: column;
 }
 
+.project-header,
+.project-tech {
+  /* text-decoration: underline; */
+  margin-top: 0;
+}
+
+.project-links-container {
+  margin: 0px 10px 0px 40px;
+}
+
+.project-link {
+  display: inline-block;
+  /* background-color: turquoise; */
+  font-size: larger;
+  margin-left: 20px;
+  height: 30px;
+}
+
+.project-link:hover {
+  background-color: #054c61;
+  color: white;
+  text-decoration: none;
+  height: 30px;
+}
+
 /*SKILLS*/
 .ul-skills {
   text-align: center;

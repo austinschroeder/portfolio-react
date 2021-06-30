@@ -29,8 +29,8 @@ function Education() {
                 <h4>Full Sail <span className="job-title">2005-2007</span></h4>
               </div>
               <div className="card-content">
-                  <p>Software Engineering Immersive</p>
-                    <p>-Completed my Bachelors Degree with honors for entertainment business and audio engineering.
+                  <p>BA Entertainment Business and Recording Engineering</p>
+                    <p>-Completed Bachelors Degree with honors for entertainment business and audio engineering.
                     <p>-Perfect Attendance award</p>
                 </p>
               </div>

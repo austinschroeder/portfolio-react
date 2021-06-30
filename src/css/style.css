@@ -337,3 +337,18 @@ h4 {
 .white-text {
   color: white;
 }
+
+/* FOOTER */
+.footer {
+  color: #054c61;
+}
+
+.footer:hover {
+
+  color: white;
+  background-color: #054c61;
+  border: 5px solid #054c61;
+  border-radius: 5px;
+  margin: -5px;
+}
+

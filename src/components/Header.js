@@ -20,6 +20,9 @@ function Header() {
             <li className="li-social-links">
               <a className="social" href="https://twitter.com/austinshreddar" target="_blank"><i className="fa fa-twitter" aria-hidden="true"></i></a>
             </li>
+            <li className="li-social-links">
+              <a className="social" href="mailto:austinsoundy@gmail.com" target="_blank"><i className="fa fa-envelope-o" aria-hidden="true"></i></a>
+            </li>
           </ul>
         </div>
         <div id="down-arrow">

@@ -19,8 +19,10 @@ function Education() {
                 <h4>General Assembly <span className="job-title">2021</span></h4>
               </div>
               <div className="card-content">
-                  <p>Software Engineering Immersive</p>
-                <p>Full-time, full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies.</p>
+                <p><u>Software Engineering Immersive</u></p>
+                <p>-650+ hours of full-stack immersive web development challenging 12 week curriculum</p>
+                <p>-Developed 4 projects using pair programming with the focus on full-stack web applications,
+                debugging, and collaboration using git version control</p>
               </div>
             </div>
             {/* <!-- EDUCATION 2 --> */}
@@ -30,9 +32,8 @@ function Education() {
               </div>
               <div className="card-content">
                   <p>BA Entertainment Business and Recording Engineering</p>
-                    <p>-Completed Bachelors Degree with honors for entertainment business and audio engineering.
                     <p>-Perfect Attendance award</p>
-                </p>
+                
               </div>
             </div>
             

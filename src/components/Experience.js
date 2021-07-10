@@ -1,7 +1,9 @@
+// import Carousel from 'react-bootstrap/Carousel'
 
 // **LIVES IN DIV className=CONTAINER**
 
 function Experience() {
+  
     return(
         // <!-- BEGIN EXPERIENCE -->
       <div className="row">
@@ -18,7 +20,11 @@ function Experience() {
                 <h4>Live Concert Production • 2010-2021 <span className="job-title">Positions include: Production Manager, Tour Manager, Audio Engineer</span></h4>
               </div>
               <div className="card-content">
-                <p>I've spent most of my adulthood working with artists, helping bring their sound to life all around the world. Along the way I've been lucky to be surrounded by many talented people in production, equipment manufacturing, management, as well as on stage talent. Experienced in leadership, communication, organization, and problem solving. Able to lead and work with a team to timely solve problems and meet deadlines.  Productions I've been directily invlolved with, include:</p>
+                <p><strong><u>Production Manager:</u></strong>  Pre-planned and executed all technical logistics for individual events, as well as entire tours.  Worked with six-figure budgets on securing production vendors and maintaining relationships.  Hired/fired crew members.  Managed conflicting priorities.  Acts  include: Tom Morello Projects, Cypress Hill, Rachel Platten, Iggy Azalea + many more.
+                </p>
+                <p><strong><u>Tour Manager:</u></strong> Worked with all members of production to create, inspire, and delegate teams. Managed blockbuster events and tours. Created VIP experience packages for fans. Planned and executed multiple complex travel arrangements.  Acts include: Plain White T’s, The Wild Feathers, Hanson + many more.
+                </p>
+                <p className="audio-engineer"><strong><u>Audio Engineer:</u></strong> Responsible for all aspects of audio for concerts and events with capacity up to 80,000 people.  High stress and high stakes trouble-shooting  with complex audio systems.  Maintained performance morale between management and artist.  Highly autonomous.  Acts include: Rage Against the Machine, Backstreet Boys, Usher, John Fogerty, Foo Fighters, Sara Bareilles + many more</p>
                 <div className="experience-flex">
                   <ul className="gig-list two">
                     <li>Rage Against the Machine • 2020</li>
@@ -51,6 +57,7 @@ function Experience() {
                   </ul>
                 </div>
               </div>
+              
             </div>
 
           {/* <!-- CARD #2 --> */}
@@ -60,7 +67,8 @@ function Experience() {
                 <h4>Sound Image <span className="job-title">Global Account Manager</span></h4>
               </div>
               <div className="card-content">
-                <p>Directly maintain client relationships and coordinate logistics for international concert tours and events.  Sales and budget management</p>
+                <p>• Coordinated and negotiated audio equipment for worldwide arena concert tours and events</p>
+                <p>• Closed an annual average of $500k+ in sales and budget management</p>
               </div>
             </div>
 
@@ -71,7 +79,8 @@ function Experience() {
                 <h4>ECS Jets <span className="job-title">Aviation Advisor/Sales</span></h4>
               </div>
               <div className="card-content">
-                <p>Working with clients on providing an exceptional private travel experience, focusing on comfort, efficiency, performance, reliability, and safety.  Trip sourcing.  Working with international hubs on sourcing aircraft and logistics.</p>
+                <p>• Sourced and maintained client relationships for a luxury private jet charter service</p>
+                <p>• Coordinated aircraft operators with international hubs on logistics and sourcing aircraft </p>
               </div>
             </div>
           </div>

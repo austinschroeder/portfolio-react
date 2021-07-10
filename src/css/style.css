@@ -47,10 +47,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0; 
-
   display: flex;
   flex-direction: column;
+  /* font-size: 1.5em; */
 }
+
+/* @media screen and (min-width: 400px) {
+  font-size: 2em;
+} */
 
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/

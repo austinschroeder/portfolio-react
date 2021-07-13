@@ -12,7 +12,7 @@ function Experience() {
           <div className="content-header">
             <a className="anchor" name="experience"></a>
             <h2>Experience</h2>
-          </div>
+          </div> 
           {/* <!-- CARD #1 --> */}
           <div className="content-body">
             <div className="card">

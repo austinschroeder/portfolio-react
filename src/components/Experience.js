@@ -1,9 +1,11 @@
-// import Carousel from 'react-bootstrap/Carousel'
+import ImgCarousel from "./ImgCarousel";
+
 
 // **LIVES IN DIV className=CONTAINER**
 
 function Experience() {
   
+
     return(
         // <!-- BEGIN EXPERIENCE -->
       <div className="row">
@@ -12,7 +14,7 @@ function Experience() {
           <div className="content-header">
             <a className="anchor" name="experience"></a>
             <h2>Experience</h2>
-          </div> 
+          </div>
           {/* <!-- CARD #1 --> */}
           <div className="content-body">
             <div className="card">
@@ -57,7 +59,7 @@ function Experience() {
                   </ul>
                 </div>
               </div>
-              
+              <ImgCarousel />
             </div>
 
           {/* <!-- CARD #2 --> */}

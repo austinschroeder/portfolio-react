@@ -10,7 +10,7 @@ import Education from './components/Education'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Footer from './components/Footer'
-// import ImgCarousel from './components/ImgCarousel';
+import ImgCarousel from './components/ImgCarousel';
 
 
 // const aboutButton = document.getElementsById('about');
@@ -30,6 +30,7 @@ function App() {
       <Projects />
       <Experience />
       <Education />
+      <ImgCarousel />
       {/* <Contact /> */}
       <Footer />
     </div>

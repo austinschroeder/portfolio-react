@@ -1,4 +1,4 @@
-import ImgCarousel from "./ImgCarousel";
+// import ImgCarousel from "./ImgCarousel";
 
 
 // **LIVES IN DIV className=CONTAINER**
@@ -59,7 +59,7 @@ function Experience() {
                   </ul>
                 </div>
               </div>
-              <ImgCarousel />
+              {/* <ImgCarousel /> */}
             </div>
 
           {/* <!-- CARD #2 --> */}

@@ -5,13 +5,22 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 function ImgCarousel () {
   return (
-    <div>
+    <div className="splide-container">
       <Splide>
         <SplideSlide>
-          <img src="https://picsum.photos/seed/picsum/200/300" alt="Image 1"/>
+          <img src="https://picsum.photos/id/227/200/300" alt="Image 1"/>
         </SplideSlide>
         <SplideSlide>
-          <img src="https://picsum.photos/seed/picsum/200/300" alt="Image 2"/>
+          <img src="https://picsum.photos/id/257/200/300" alt="Image 2"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img src="https://picsum.photos/id/217/200/300" alt="Image 3"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img src="https://picsum.photos/id/287/200/300" alt="Image 4"/>
+        </SplideSlide>
+        <SplideSlide>
+          <img src="https://picsum.photos/id/297/200/300" alt="Image 5"/>
         </SplideSlide>
     </Splide>
 

@@ -36,8 +36,8 @@ function Experience() {
                     <li>Rancid • 2018</li>
                     <li>Backstreet Boys • 2017-2019</li>
                     <li>Rachel Platten • 2017-2018</li>
-                  </ul>
-                  <ul className="gig-list two">
+                  {/* </ul> */}
+                  {/* <ul className="gig-list two"> */}
                     <li>Plain White Ts • 2017</li>
                     <li>Camila Cabello • 2017</li>
                     <li>Iggy Azalea • 2016-2018</li>
@@ -45,8 +45,8 @@ function Experience() {
                     <li>Cypress Hill • 2015-2019</li>
                     <li>The Wild Feathers • 2015-2018</li>
                     <li>Foo Fighters • 2015</li>
-                  </ul>
-                  <ul>
+                  {/* </ul> */}
+                  {/* <ul> */}
                     <li>Queens of the Stone Age • 2014-2016</li>
                     <li>Neyo • 2014-2015</li>
                     <li>Blues Traveler • 2013-2014</li>

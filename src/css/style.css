@@ -190,6 +190,31 @@ li {
   width: 100%;
 }
 
+.gig-list {
+  columns: 3;
+  padding-left: 15px;
+}
+
+.gig-list li {
+  margin: 0 5px;
+  
+}
+
+/* marquee li {
+  display: inline;
+  margin-right: 15px;
+}
+
+marquee li::after {
+  content: "|";
+  padding: 0 3px;
+}
+
+marquee li::before {
+  content: "|";
+  padding: 0 3px;
+} */
+
 
 
 /*EDUCATION*/
@@ -238,7 +263,7 @@ h4 {
 }
 
 .project-image {
-  /* flex: 1 0 auto; */
+  flex: 1;
   align-items: center;
   border-right: #054b6170 solid 1px;
 
@@ -280,6 +305,10 @@ h4 {
   font-size: larger;
   margin-left: 20px;
   height: 30px;
+}
+
+.project-link:visited {
+  color: inherit;
 }
 
 .project-link:hover {
@@ -371,6 +400,11 @@ h4 {
 
 /* *************************************** */
 @media screen and (max-width: 600px) {
+  .navbar a {
+    font-size: 12px;
+    padding: 14px 10px;
+  }
+
   .jumbotron-text h1 {
     font-size: 3rem;
   }
@@ -382,7 +416,6 @@ h4 {
     height: 600px;
   }
 
-
   .side-content {
     flex: 0 0 25px;
   }
@@ -390,5 +423,29 @@ h4 {
   .project-card {
     flex-direction: column;
   }
+
+  .project-image {
+  border-right: none;
+  border-bottom: #054b6170 solid 1px;
+  }
+
+  .project-links-container {
+    margin: 0;
+}
+
+/* EXPERIENCE */
+  .card-header h4 {
+    font-size: 1em;
+
+  }
+
+  .gig-list {
+    columns: 1;
+  }
+
+  .social {
+    padding: 15px;
+}
+
 }
 /* *************************************** */

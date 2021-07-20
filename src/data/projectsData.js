@@ -5,7 +5,7 @@ import instaclone1 from '../images/instaclone1.png'
 const projects = [
     {
         name: 'Insta Clone',
-        image: instaclone1,
+        image: x,
         description: 'Full CRUD Instagram clone implementing Firebase to handle backend and auth.',
         tech: 'HTML, CSS, Material-UI, React, Firebase',
         link: 'https://insta-clone-9079b.web.app/',

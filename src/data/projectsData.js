@@ -21,21 +21,21 @@ const projects = [
         gh: 'https://github.com/austinschroeder/insta-clone'
     },
     {
-        name: 'Melty',
-        image: 'https://zipclinic.com/wp-content/uploads/2019/12/plant.jpg',
-        description: 'Melty is a full CRUD site for customers interested in finding delicious plant-based cheeses in their area. Able to find out information about top brands of plant-based cheeses, read user reviews, and submit reviews.',
-        tech: 'HTML, MongoDB, Mongoose, NodeJS, ExpressJS',
-        link: 'https://melty-plant-based.herokuapp.com/',
-        gh: 'https://github.com/austinschroeder/melty'
-        
-    },
-    {
         name: 'JS Racer',
         image: tortoise,
         description: 'Fun little racing game, made with JavaScript, jQuery and HTML/CSS',
         tech: 'HTML, CSS, JS, jQuery',
         link: 'https://pages.git.generalassemb.ly/austinschroeder/Austin-JS-Racer/',
         gh: 'https://github.com/austinschroeder/javascript-racer'
+        
+    },
+    {
+        name: 'Melty',
+        image: 'https://zipclinic.com/wp-content/uploads/2019/12/plant.jpg',
+        description: 'Melty is a full CRUD site for customers interested in finding delicious plant-based cheeses in their area. Able to find out information about top brands of plant-based cheeses, read user reviews, and submit reviews.',
+        tech: 'HTML, MongoDB, Mongoose, NodeJS, ExpressJS',
+        link: 'https://melty-plant-based.herokuapp.com/',
+        gh: 'https://github.com/austinschroeder/melty'
         
     },
     {

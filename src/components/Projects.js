@@ -13,9 +13,9 @@ function ProjectCard(props) {
         <img src={project.image} />
       </div>
       <div className="project-content">
-        <h4 className="project-header">-{project.name}-</h4>
+        <h4 className="project-header">- {project.name} -</h4>
         <p>{project.description}</p>
-        <p className="project-tech">-{project.tech}-</p>
+        <p className="project-tech">- {project.tech} -</p>
         <div className="project-links-container">
           <a className="project-link"  href={project.link} target="_blank">Live Demo</a>
           <a className="project-link"  href={project.gh} target="_blank">Source Code</a>

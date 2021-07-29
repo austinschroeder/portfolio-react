@@ -38,10 +38,25 @@ body {
   visibility: hidden;
 }
 
+/* :root {
+  --gradient: linear-gradient(
+    45deg,
+    #054c61,
+    #06627d
+    #08799b
+    #098fb7,
+    054c61,
+    #05485c
+  );
+} */
+
+
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
   background: #054c61 url(../images/gradient-bkgrnd.png) ; 
+  /* background: var(--gradient);
+  background: url(../images/gradient-bkgrnd.png) ;  */
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0; 

@@ -17,7 +17,7 @@
   },
   "scripts": {
 
-    "predeploy": "rm -rf node_modules/gh-pages/.cache",
+    "predeploy": "rm -rf node_modules/.cache/gh-pages",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -10,15 +10,15 @@ function ProjectCard(props) {
   return (
     <div className="project-card">
       <div className="project-image">
-        <img src={project.image} />
+        <img alt="" src={project.image} />
       </div>
       <div className="project-content">
         <h4 className="project-header">- {project.name} -</h4>
         <p>{project.description}</p>
         <p className="project-tech">- {project.tech} -</p>
         <div className="project-links-container">
-          <a className="project-link"  href={project.link} target="_blank">Live Demo</a>
-          <a className="project-link"  href={project.gh} target="_blank">Source Code</a>
+          <a className="project-link"  href={project.link} target="_blank" rel="noreferrer">Live Demo</a>
+          <a className="project-link"  href={project.gh} target="_blank" rel="noreferrer">Source Code</a>
         </div>
       </div>
     </div>
@@ -31,8 +31,7 @@ function Projects(props) {
       <div className="side-content-sm"></div>
       <div className="main-content-lg">
         <div className="content-header">
-          <a className="anchor" name="projects"></a>
-          <h2>Projects</h2>
+          <h2 id="projects">Projects</h2>
         </div>
         <div className="content-body">
           {projects.map((project, index) => {

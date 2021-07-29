@@ -5,6 +5,7 @@ const skillNames = [
   "HTML",
   "CSS",
   "React",
+  "Googling",
   "Node.js",
   "Bootstrap",
   "jQuery",

@@ -6,7 +6,7 @@ function Header() {
         // <!-- HEADER -->
       <div className="jumbotron">
         <div className="jumbotron-text">
-          <h1>AAUSTIN SCHROEDER</h1>
+          <h1>AUSTIN SCHROEDER</h1>
           <p>Full-Stack Web Developer in San Diego, CA.</p>
         </div>
         <div className="jumbotron-social">

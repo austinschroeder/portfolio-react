@@ -1,9 +1,18 @@
 import tortoise from '../images/tortoise.png';
 import x from '../images/X.jpg'
 import covid19 from '../images/covid19.png'
+import memories from '../images/memories.png'
 // import instaclone1 from '../images/instaclone1.png'
 
 const projects = [
+    {
+        name: '"Remember this?"',
+        image: memories,
+        description: 'MERN app for uploading images with descriptions',
+        tech: 'React + Redux, Node, Epress, MongoDB, Material-UI',
+        link: 'https://memories-austin.netlify.app/',
+        gh: 'https://github.com/austinschroeder/memories-client'
+    },
     {
         name: 'Covid-19 Daily Tracker',
         image: covid19,

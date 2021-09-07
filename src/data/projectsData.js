@@ -1,13 +1,13 @@
 import tortoise from '../images/tortoise.png';
 import x from '../images/X.jpg'
 import covid19 from '../images/covid19.png'
-import instaclone1 from '../images/instaclone1.png'
+// import instaclone1 from '../images/instaclone1.png'
 
 const projects = [
     {
         name: 'Covid-19 Daily Tracker',
         image: covid19,
-        description: <>App to track Covid stats via country using React, Leaflet maps, and <a target="_blank" href='https://disease.sh/'>Disease.sh</a> API</>,
+        description: <>App to track Covid stats via country using React, Leaflet maps, and <a target="_blank" rel="noreferrer" href='https://disease.sh/'>Disease.sh</a> API</>,
         tech: 'HTML, CSS, React, Leaflet, Numeral, Material-UI',
         link: 'https://austinschroeder.github.io/covid-19-tracker/',
         gh: 'https://github.com/austinschroeder/covid-19-tracker/'

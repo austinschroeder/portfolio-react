@@ -8,19 +8,19 @@ function ImgCarousel () {
     <div className="splide-container">
       <Splide>
         <SplideSlide>
-          <img src="https://picsum.photos/id/227/200/300" alt="Image 1"/>
+          <img src="https://picsum.photos/id/227/200/300" alt="one"/>
         </SplideSlide>
         <SplideSlide>
-          <img src="https://picsum.photos/id/257/200/300" alt="Image 2"/>
+          <img src="https://picsum.photos/id/257/200/300" alt="two"/>
         </SplideSlide>
         <SplideSlide>
-          <img src="https://picsum.photos/id/217/200/300" alt="Image 3"/>
+          <img src="https://picsum.photos/id/217/200/300" alt="three"/>
         </SplideSlide>
         <SplideSlide>
-          <img src="https://picsum.photos/id/287/200/300" alt="Image 4"/>
+          <img src="https://picsum.photos/id/287/200/300" alt="four"/>
         </SplideSlide>
         <SplideSlide>
-          <img src="https://picsum.photos/id/297/200/300" alt="Image 5"/>
+          <img src="https://picsum.photos/id/297/200/300" alt="five"/>
         </SplideSlide>
     </Splide>
 

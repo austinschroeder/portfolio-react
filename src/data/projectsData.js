@@ -8,7 +8,7 @@ const projects = [
     {
         name: '"Remember this?"',
         image: memories,
-        description: 'MERN app for uploading images with descriptions',
+        description: <>MERN app for uploading images with descriptions and image tags<br /><i>(Please allow time for Heroku server to start up)</i></>,
         tech: 'React + Redux, Node, Epress, MongoDB, Material-UI',
         link: 'https://memories-austin.netlify.app/',
         gh: 'https://github.com/austinschroeder/memories-client'
@@ -50,7 +50,7 @@ const projects = [
     {
         name: 'Cage-DB',
         image: 'https://www.pngitem.com/pimgs/m/625-6251290_nic-cage-face-png-nicolas-cage-high-resolution.png',
-        description: 'Cage DB is a full CRUD web app containing a detailed database on Nicolas Cage movies',
+        description: <>Cage DB is a full CRUD web app containing a detailed database on Nicolas Cage movies<br /><i>(Please allow time for Heroku server to start up)</i></>,
         tech: 'Python, Django, HTML, CSS-Materialize',
         link: 'https://cage-db.herokuapp.com/',
         gh: 'https://github.com/austinschroeder/cage-db'

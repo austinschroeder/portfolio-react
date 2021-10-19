@@ -1,8 +1,9 @@
 import tortoise from '../images/tortoise.png';
-import x from '../images/X.jpg'
-import covid19 from '../images/covid19.png'
-import memories from '../images/memories.png'
+import x from '../images/x-2.png'
+import covid19 from '../images/covid19-2.png'
+import memories from '../images/memories2.png'
 import lasso from '../images/lasso.png'
+import melty from '../images/melty.png'
 // import instaclone1 from '../images/instaclone1.png'
 
 const projects = [
@@ -49,7 +50,7 @@ const projects = [
     },
     {
         name: 'Melty',
-        image: 'https://zipclinic.com/wp-content/uploads/2019/12/plant.jpg',
+        image: melty,
         description: 'Melty is a full CRUD site for customers interested in finding delicious plant-based cheeses in their area. Able to find out information about top brands of plant-based cheeses, read user reviews, and submit reviews.',
         tech: 'HTML, MongoDB, Mongoose, NodeJS, ExpressJS',
         link: 'https://melty-plant-based.herokuapp.com/',

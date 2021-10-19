@@ -1,4 +1,4 @@
-import tortoise from '../images/tortoise.png';
+// import tortoise from '../images/tortoise.png';
 import x from '../images/x-2.png'
 import covid19 from '../images/covid19-2.png'
 import memories from '../images/memories2.png'
@@ -47,7 +47,7 @@ const projects = [
         tech: 'HTML, CSS, JS, jQuery',
         link: 'https://pages.git.generalassemb.ly/austinschroeder/Austin-JS-Racer/',
         gh: 'https://github.com/austinschroeder/javascript-racer'
-        
+
     },
     {
         name: 'Melty',
@@ -56,7 +56,7 @@ const projects = [
         tech: 'HTML, MongoDB, Mongoose, NodeJS, ExpressJS',
         link: 'https://melty-plant-based.herokuapp.com/',
         gh: 'https://github.com/austinschroeder/melty'
-        
+
     },
     {
         name: 'Cage-DB',
@@ -65,7 +65,7 @@ const projects = [
         tech: 'Python, Django, HTML, CSS-Materialize',
         link: 'https://cage-db.herokuapp.com/',
         gh: 'https://github.com/austinschroeder/cage-db'
-        
+
     },
 
 ];

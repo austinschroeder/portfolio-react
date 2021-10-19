@@ -4,6 +4,7 @@ import covid19 from '../images/covid19-2.png'
 import memories from '../images/memories2.png'
 import lasso from '../images/lasso.png'
 import melty from '../images/melty.png'
+import jsracer from '../images/jsracer.png'
 // import instaclone1 from '../images/instaclone1.png'
 
 const projects = [
@@ -41,7 +42,7 @@ const projects = [
     },
     {
         name: 'JS Racer',
-        image: tortoise,
+        image: jsracer,
         description: 'Fun little racing game, made with JavaScript, jQuery and HTML/CSS',
         tech: 'HTML, CSS, JS, jQuery',
         link: 'https://pages.git.generalassemb.ly/austinschroeder/Austin-JS-Racer/',

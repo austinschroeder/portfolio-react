@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.33faf7a2.chunk.css",
-    "main.js": "/static/js/main.fc8b6cda.chunk.js",
-    "main.js.map": "/static/js/main.fc8b6cda.chunk.js.map",
+    "main.js": "/static/js/main.ce85c55f.chunk.js",
+    "main.js.map": "/static/js/main.ce85c55f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f80c763f.js",
     "runtime-main.js.map": "/static/js/runtime-main.f80c763f.js.map",
     "static/js/2.8b48ba3a.chunk.js": "/static/js/2.8b48ba3a.chunk.js",
@@ -10,6 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.33faf7a2.chunk.css.map": "/static/css/main.33faf7a2.chunk.css.map",
     "static/js/2.8b48ba3a.chunk.js.LICENSE.txt": "/static/js/2.8b48ba3a.chunk.js.LICENSE.txt",
+    "static/media/cage.c010fc74.png": "/static/media/cage.c010fc74.png",
     "static/media/covid19-2.d99c9c69.png": "/static/media/covid19-2.d99c9c69.png",
     "static/media/style.css": "/static/media/gradient-bkgrnd.076722d3.png",
     "static/media/jsracer.379559cb.png": "/static/media/jsracer.379559cb.png",
@@ -23,6 +24,6 @@
     "static/js/runtime-main.f80c763f.js",
     "static/js/2.8b48ba3a.chunk.js",
     "static/css/main.33faf7a2.chunk.css",
-    "static/js/main.fc8b6cda.chunk.js"
+    "static/js/main.ce85c55f.chunk.js"
   ]
 }

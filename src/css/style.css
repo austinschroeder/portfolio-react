@@ -286,15 +286,10 @@ h4 {
 }
 
 .project-image img {
-  max-width: 250px;
-  flex: 1;
+  height: 100%; /* new */
+  width: 250px; /* new */
   display: block;
-  /* border-top-left-radius: 5px; */
-  /* border-bottom-left-radius: 5px; */
-  /* border-right: #054b6170 solid 1px; */
-  /* width: 250px; */
-  /* height: 250px; */
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .project-content {
@@ -308,7 +303,6 @@ h4 {
 
 .project-header,
 .project-tech {
-  /* text-decoration: underline; */
   margin-top: 0;
 }
 
@@ -318,7 +312,6 @@ h4 {
 
 .project-link {
   display: inline-block;
-  /* background-color: turquoise; */
   font-size: larger;
   margin-left: 20px;
   height: 30px;
@@ -443,6 +436,12 @@ h4 {
   .project-image {
     border-right: none;
     border-bottom: #054b6170 solid 1px;
+  }
+
+  .project-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
   }
 
   .project-links-container {

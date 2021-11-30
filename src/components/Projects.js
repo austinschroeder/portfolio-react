@@ -1,6 +1,5 @@
-import React from "react";
-// import tortoise from "../images/tortoise.png";
-import projects from "../data/projectsData";
+import React from 'react';
+import projects from '../data/projectsData';
 
 // **LIVES IN DIV className=CONTAINER**
 
@@ -17,8 +16,22 @@ function ProjectCard(props) {
         <p>{project.description}</p>
         <p className="project-tech">- {project.tech} -</p>
         <div className="project-links-container">
-          <a className="project-link"  href={project.link} target="_blank" rel="noreferrer">Live Demo</a>
-          <a className="project-link"  href={project.gh} target="_blank" rel="noreferrer">Source Code</a>
+          <a
+            className="project-link"
+            href={project.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Demo
+          </a>
+          <a
+            className="project-link"
+            href={project.gh}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Source Code
+          </a>
         </div>
       </div>
     </div>

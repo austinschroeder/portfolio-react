@@ -5,7 +5,7 @@ import memories from '../images/memories2.png';
 import lasso from '../images/lasso.png';
 import melty from '../images/melty.png';
 import jsracer from '../images/jsracer.png';
-// import instaclone1 from '../images/instaclone1.png'
+import cage from '../images/cage.png';
 
 const projects = [
   {
@@ -76,8 +76,7 @@ const projects = [
   },
   {
     name: 'Cage-DB',
-    image:
-      'https://www.pngitem.com/pimgs/m/625-6251290_nic-cage-face-png-nicolas-cage-high-resolution.png',
+    image: cage,
     description: (
       <>
         Cage DB is a full CRUD web app containing a detailed database on Nicolas

@@ -10,7 +10,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 // Google Analytics
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 import React, { useEffect } from 'react';
 
 // import ImgCarousel from './components/ImgCarousel';
@@ -26,7 +26,8 @@ function App() {
   // Google Analytics
   useEffect(() => {
     ReactGA.initialize('G-HWLV1VERR4');
-    ReactGA.pageview(window.location.pathname + window.location.search);
+    // ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.send('pageview');
   }, []);
 
   return (

@@ -22,13 +22,13 @@ import React, { useEffect } from 'react';
 //   document.getElementById('about-header').scrollIntoView({behavior:"smooth"});
 // })
 
-// Google Analytics
-useEffect(() => {
-  ReactGA.initialize('TRACKING ID');
-  ReactGA.pageview(window.location.pathname + window.location.search);
-}, []);
-
 function App() {
+  // Google Analytics
+  useEffect(() => {
+    ReactGA.initialize('TRACKING ID');
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <div className="container">
       <Navbar />

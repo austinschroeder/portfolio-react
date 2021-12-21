@@ -9,6 +9,10 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+// Google Analytics
+import ReactGA from 'react-ga';
+import React, { useEffect } from 'react';
+
 // import ImgCarousel from './components/ImgCarousel';
 
 // const aboutButton = document.getElementsById('about');
@@ -17,6 +21,12 @@ import Footer from './components/Footer';
 // document.getElementById('about').addEventListener('click', function(){
 //   document.getElementById('about-header').scrollIntoView({behavior:"smooth"});
 // })
+
+// Google Analytics
+useEffect(() => {
+  ReactGA.initialize('TRACKING ID');
+  ReactGA.pageview(window.location.pathname + window.location.search);
+}, []);
 
 function App() {
   return (

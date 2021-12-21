@@ -25,7 +25,7 @@ import React, { useEffect } from 'react';
 function App() {
   // Google Analytics
   useEffect(() => {
-    ReactGA.initialize('TRACKING ID');
+    ReactGA.initialize('G-HWLV1VERR4');
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 

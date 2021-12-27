@@ -32,9 +32,7 @@ function Experience() {
                 Pre-planned and executed all technical logistics for individual
                 events, as well as entire tours. Worked with six-figure budgets
                 on securing production vendors and maintaining relationships.
-                Hired/fired crew members. Managed conflicting priorities. Acts
-                include: Tom Morello Projects, Cypress Hill, Rachel Platten,
-                Iggy Azalea + many more.
+                Hired/fired crew members. Managed conflicting priorities.
               </p>
               <p>
                 <strong>
@@ -43,8 +41,7 @@ function Experience() {
                 Worked with all members of production to create, inspire, and
                 delegate teams. Managed blockbuster events and tours. Created
                 VIP experience packages for fans. Planned and executed multiple
-                complex travel arrangements. Acts include: Plain White T’s, The
-                Wild Feathers, Hanson + many more.
+                complex travel arrangements.
               </p>
               <p className="audio-engineer">
                 <strong>
@@ -54,9 +51,7 @@ function Experience() {
                 with capacity up to 80,000 people. High stress and high stakes
                 trouble-shooting with complex audio systems. Maintained
                 performance morale between management and artist. Highly
-                autonomous. Acts include: Rage Against the Machine, Backstreet
-                Boys, Usher, John Fogerty, Foo Fighters, Sara Bareilles + many
-                more
+                autonomous.
               </p>
               <div className="experience-flex">
                 <ul className="gig-list two">

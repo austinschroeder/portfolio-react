@@ -13,7 +13,7 @@ const projects = [
     image: lasso,
     description:
       'The purpose of this project is to become better equiped with using the Sass preprocessor, as well as continuing to work on my design responsiveness for different window sizes and mobile.',
-    tech: 'HTML, SASS/CSS, JavaScript',
+    tech: 'HTML, SASS/CSS, JavaScript, Adobe Photoshop',
     link: 'https://austinschroeder.github.io/sass-learn/index.html',
     gh: 'https://github.com/austinschroeder/sass-learn',
   },

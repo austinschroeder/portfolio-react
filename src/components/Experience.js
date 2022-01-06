@@ -12,6 +12,30 @@ function Experience() {
           <a className="anchor" name="experience"></a>
           <h2>Experience</h2>
         </div>
+
+        {/* <!-- CARD #0 --> */}
+
+        <div className="card">
+            <div className="card-header">
+              <h4>
+                Knowcap • 2021-current{' '}
+                <span className="job-title">Software Engineer</span>
+              </h4>
+            </div>
+            <div className="card-content">
+              <p>Utilizing MERN stack to develop an API that allows companies to agree to pay a service provider based on revenue for a period of time.
+              </p>
+              <ul className="knowcap-ul">
+                <li>Responsible for implementing Plaid API to add user bank accounts, calculate revenue percentage, find income/revenue.</li>
+                <li>Implement test driven development using Jest library for API backend.</li>
+                <li>Use GitHub Actions as the basis for CI/CD pipeline with GCP.</li>
+                <li>Implement OpenAPI v3.0.+ for the backend API to service the frontend.</li>
+                <li>Use JSON Web Tokens for session authorization.</li>
+                <li>React Bootstrap is used for components.</li>
+              </ul>
+            </div>
+          </div>
+
         {/* <!-- CARD #1 --> */}
         <div className="content-body">
           <div className="card">
@@ -97,14 +121,12 @@ function Experience() {
               </h4>
             </div>
             <div className="card-content">
-              <p>
-                • Coordinated and negotiated audio equipment for worldwide arena
-                concert tours and events
-              </p>
-              <p>
-                • Closed an annual average of $500k+ in sales and budget
-                management
-              </p>
+              <ul>
+                <li>Coordinated and negotiated audio equipment for worldwide arena
+                concert tours and events</li>
+                <li>Closed an annual average of $500k+ in sales and budget
+                management</li>
+              </ul>
             </div>
           </div>
 
@@ -118,14 +140,12 @@ function Experience() {
               </h4>
             </div>
             <div className="card-content">
-              <p>
-                • Sourced and maintained client relationships for a luxury
-                private jet charter service
-              </p>
-              <p>
-                • Coordinated aircraft operators with international hubs on
-                logistics and sourcing aircraft{' '}
-              </p>
+              <ul>
+                <li>Sourced and maintained client relationships for a luxury
+                private jet charter service</li>
+                <li>Coordinated aircraft operators with international hubs on
+                logistics and sourcing aircraft{' '}</li>
+              </ul>
             </div>
           </div>
         </div>

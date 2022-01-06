@@ -210,6 +210,10 @@ li {
   width: 100%;
 }
 
+.knowcap-ul li {
+  margin-bottom: 10px;
+}
+
 .gig-list {
   columns: 3;
   padding-left: 15px;

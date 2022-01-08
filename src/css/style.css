@@ -311,11 +311,24 @@ h4 {
 
 .project-header,
 .project-tech {
-  margin-top: 0;
+  margin: 0;
+}
+
+.project-description {
+  margin: 0;
+  font-style: italic;
+}
+
+.project-content ul {
+  margin: 0;
+}
+
+.project-bullets {
+  margin: 0;
 }
 
 .project-links-container {
-  margin: 0px 10px 0px 40px;
+  margin: 0;
 }
 
 .project-link {

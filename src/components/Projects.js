@@ -4,8 +4,16 @@ import projects from '../data/projectsData';
 // **LIVES IN DIV className=CONTAINER**
 
 function ProjectCard(props) {
-  //bring {project} in to replace props param to replace variable in next line
   const { project } = props;
+  console.log(props);
+  const bulletItems = project.bullets.map((bullet) => {
+    return (
+      <li key={bullet} className="project-bullets">
+        {bullet}
+      </li>
+    );
+  });
+
   return (
     <div className="project-card">
       <div className="project-image">
@@ -13,8 +21,9 @@ function ProjectCard(props) {
       </div>
       <div className="project-content">
         <h4 className="project-header">- {project.name} -</h4>
-        <p>{project.description}</p>
-        <p className="project-tech">- {project.tech} -</p>
+        <p className="project-tech">Tech used: {project.tech}</p>
+        <p className="project-description">{project.description}</p>
+        <ul>{bulletItems}</ul>
         <div className="project-links-container">
           <a
             className="project-link"

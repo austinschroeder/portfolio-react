@@ -12,7 +12,12 @@ const projects = [
     name: 'SASS Portfolio',
     image: lasso,
     description:
-      'The purpose of this project is to become better equiped with using the Sass preprocessor, as well as continuing to work on my design responsiveness for different window sizes and mobile.',
+      'A responsive multi page mock ‘tech’ portfolio site.  Created to learn SASS and try out some humor in my work.',
+    bullets: [
+      'Used Photoshop to edit custom images',
+      'Completed over the course of 2 days',
+      'No build system.  Raw HTML, JS',
+    ],
     tech: 'HTML, SASS/CSS, JavaScript, Adobe Photoshop',
     link: 'https://austinschroeder.github.io/sass-learn/index.html',
     gh: 'https://github.com/austinschroeder/sass-learn',
@@ -22,11 +27,16 @@ const projects = [
     image: memories,
     description: (
       <>
-        MERN app for uploading images with descriptions and image tags
+        A responsive web application that enables users to upload an image file
+        or “memory”, with a title, creator, short message, and image tags.
         <br />
         <i>(Please allow time for Heroku server to start up)</i>
       </>
     ),
+    bullets: [
+      'Implemented CRUD API, where users can like posts',
+      'Built to learn React using Hooks and Redux for data store',
+    ],
     tech: 'React + Redux, Node, Express, MongoDB, Material-UI',
     link: 'https://memories-austin.netlify.app/',
     gh: 'https://github.com/austinschroeder/memories-client',
@@ -36,13 +46,16 @@ const projects = [
     image: covid19,
     description: (
       <>
-        App to track Covid stats via country using React, Leaflet maps, and{' '}
-        <a target="_blank" rel="noreferrer" href="https://disease.sh/">
-          Disease.sh
-        </a>{' '}
-        API
+        A responsive web app for monitoring Covid-19 statistics that update
+        daily based on country. Created to get a better understanding of React
+        with Hooks and implement a map API.
       </>
     ),
+    bullets: [
+      'The Chart.js API  used to create a  graph for displaying data in UI friendly visual form',
+      'Numeral.js library is used for formatting and manipulating the data stored as numbers',
+      'React-Leaflet component is used for displaying data via map visual',
+    ],
     tech: 'HTML, CSS, React, Leaflet, Numeral, Material-UI',
     link: 'https://austinschroeder.github.io/covid-19-tracker/',
     gh: 'https://github.com/austinschroeder/covid-19-tracker/',
@@ -51,7 +64,11 @@ const projects = [
     name: 'Insta Clone',
     image: x,
     description:
-      'Full CRUD Instagram clone implementing Firebase to handle backend and auth.',
+      'A clone of the popular app, created to learn Firebase, Material-UI, and mobile first design fundamentals.',
+    bullets: [
+      'Features account creation and user authentication',
+      'Users can add and edit images and comments',
+    ],
     tech: 'HTML, CSS, Material-UI, React, Firebase',
     link: 'https://insta-clone-9079b.web.app/',
     gh: 'https://github.com/austinschroeder/insta-clone',
@@ -60,7 +77,11 @@ const projects = [
     name: 'JS Racer',
     image: jsracer,
     description:
-      'Fun little racing game, made with JavaScript, jQuery and HTML/CSS',
+      'Two player racing game with keyboard controls, sound effects, and score tracking.',
+    bullets: [
+      'Built to learn jQuery fundamentals as my first app  at bootcamp',
+      'Learned web audio API to include background music, sound effects, and winner declaration',
+    ],
     tech: 'HTML, CSS, JS, jQuery',
     link: 'https://pages.git.generalassemb.ly/austinschroeder/Austin-JS-Racer/',
     gh: 'https://github.com/austinschroeder/javascript-racer',
@@ -69,7 +90,11 @@ const projects = [
     name: 'Melty',
     image: melty,
     description:
-      'Melty is a full CRUD site for customers interested in finding delicious plant-based cheeses in their area. Able to find out information about top brands of plant-based cheeses, read user reviews, and submit reviews.',
+      'A site for customers interested in finding plant-based cheeses in their area. Includes information about top brands of plant-based cheeses including a product picture, and user reviews.',
+    bullets: [
+      'Implemented CRUD API, able to create a brand and product by uploading details to DB',
+      'Decorative buttons animate using CSS',
+    ],
     tech: 'HTML, MongoDB, Mongoose, NodeJS, ExpressJS',
     link: 'https://melty-plant-based.herokuapp.com/',
     gh: 'https://github.com/austinschroeder/melty',
@@ -79,12 +104,17 @@ const projects = [
     image: cage,
     description: (
       <>
-        Cage DB is a full CRUD web app containing a detailed database on Nicolas
+        Cage DB is a RESTful web app containing a detailed database on Nicolas
         Cage movies
         <br />
         <i>(Please allow time for Heroku server to start up)</i>
       </>
     ),
+    bullets: [
+      'Used Photoshop to edit custom images',
+      'Completed over the course of 2 days',
+      'No build system.  Raw HTML, JS',
+    ],
     tech: 'Python, Django, HTML, CSS-Materialize',
     link: 'https://cage-db.herokuapp.com/',
     gh: 'https://github.com/austinschroeder/cage-db',

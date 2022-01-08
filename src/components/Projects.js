@@ -21,8 +21,8 @@ function ProjectCard(props) {
       </div>
       <div className="project-content">
         <h4 className="project-header">- {project.name} -</h4>
-        <p className="project-tech">Tech used: {project.tech}</p>
         <p className="project-description">{project.description}</p>
+        <p className="project-tech">Tech used: {project.tech}</p>
         <ul>{bulletItems}</ul>
         <div className="project-links-container">
           <a

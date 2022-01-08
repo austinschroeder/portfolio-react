@@ -6,8 +6,23 @@ import lasso from '../images/lasso.png';
 import melty from '../images/melty.png';
 import jsracer from '../images/jsracer.png';
 import cage from '../images/cage.png';
+import etch from '../images/etch.png';
+import rta from '../images/rta.png';
 
 const projects = [
+  {
+    name: 'Audio Analyzer',
+    image: rta,
+    description:
+      'Real Time Analyzer (RTA) web app that will provide a visual display of audio data being collected via device microphone.',
+    bullets: [
+      'RGB to HSL conversion to provide coloration for amplitude of specific frequency data',
+      'No libraries or frameworks used',
+    ],
+    tech: 'HTML, CSS, Canvas, vanilla JavaScript, Parcel bundler',
+    link: 'https://austinschroeder.github.io/rta/',
+    gh: 'https://github.com/austinschroeder/rta',
+  },
   {
     name: 'SASS Portfolio',
     image: lasso,
@@ -40,6 +55,19 @@ const projects = [
     tech: 'React + Redux, Node, Express, MongoDB, Material-UI',
     link: 'https://memories-austin.netlify.app/',
     gh: 'https://github.com/austinschroeder/memories-client',
+  },
+  {
+    name: '"Etch-A-Sketch"',
+    image: etch,
+    description:
+      'A web app modeling the Etch-A-Sketch toy to learn about canvas and javascript animation.',
+    bullets: [
+      'Designed using Photoshop and CSS',
+      'No libraries or frameworks used',
+    ],
+    tech: 'HTML, CSS, Canvas, JavaScript, Adobe Photoshop',
+    link: 'https://austinschroeder.github.io/etch-a-sketch/',
+    gh: 'https://github.com/austinschroeder/etch-a-sketch',
   },
   {
     name: 'Covid-19 Daily Tracker',

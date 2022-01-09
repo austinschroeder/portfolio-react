@@ -18,6 +18,7 @@ const projects = [
     bullets: [
       'RGB to HSL conversion to provide coloration for amplitude of specific frequency data',
       'No libraries or frameworks used',
+      'Will make everybody else in your office wonder what the heck you are doing…',
     ],
     tech: 'HTML, CSS, Canvas, vanilla JavaScript, Parcel bundler',
     link: 'https://austinschroeder.github.io/rta/',

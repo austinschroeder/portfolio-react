@@ -8,8 +8,23 @@ import jsracer from '../images/jsracer.png';
 import cage from '../images/cage.png';
 import etch from '../images/etch.png';
 import rta from '../images/rta.png';
+import trivia from '../images/trivia.png';
 
 const projects = [
+  {
+    name: 'React/Typescript Triva Game',
+    image: trivia,
+    description:
+      'Fun trivia game that pulls questions from Open Trivia Database API.  Built to better understand Typescript and Styled Components.',
+    bullets: [
+      'Got creative with complicated CSS',
+      'Paid close attention to async/await and speed of API calls',
+      'Easily customizable to add more questions or change difficulty of questions pulled from API',
+    ],
+    tech: 'React, Typescript, Styled Components',
+    link: 'https://austinschroeder.github.io/react-trivia/',
+    gh: 'https://github.com/austinschroeder/react-trivia',
+  },
   {
     name: 'Audio Analyzer',
     image: rta,

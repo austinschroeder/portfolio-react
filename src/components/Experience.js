@@ -16,25 +16,110 @@ function Experience() {
         {/* <!-- CARD #0 --> */}
 
         <div className="card">
-            <div className="card-header">
-              <h4>
-                Knowcap • 2021-current{' '}
-                <span className="job-title">Software Engineer</span>
-              </h4>
-            </div>
-            <div className="card-content">
-              <p>Utilizing MERN stack to develop an API that allows companies to agree to pay a service provider based on revenue for a period of time.
-              </p>
-              <ul className="knowcap-ul">
-                <li>Responsible for implementing Plaid API to add user bank accounts, calculate revenue percentage, find income/revenue.</li>
-                <li>Implement test driven development using Jest library for API backend.</li>
-                <li>Use GitHub Actions as the basis for CI/CD pipeline with GCP.</li>
-                <li>Implement OpenAPI v3.0.+ for the backend API to service the frontend.</li>
-                <li>Use JSON Web Tokens for session authorization.</li>
-                <li>React Bootstrap is used for components.</li>
-              </ul>
-            </div>
+          <div className="card-header">
+            <h4>
+              Eventric • April 2022-current{' '}
+              <span className="job-title">Front-End Developer</span>
+            </h4>
           </div>
+          <div className="card-content">
+            <p>
+              Eventric is the leading SaaS developer of live event and tour
+              management software solutions. We power efficiency and measurable
+              bottom-line profitability for event production and tour
+              management. We’ve designed and cultivated our web, mobile, and
+              cloud solutions Master Tour and Live Access to precisely benefit
+              the needs of the top professionals across music, tv/film, sports,
+              production, corporate, and touring industries.
+            </p>
+            <ul className="knowcap-ul">
+              <li>
+                Stack includes: React, Electron, Redux, React-Native, React w/
+                Typescript, React Context, Styled Components, Mocha and Cypress
+                Unit testing
+              </li>
+              <li>
+                Maintain Agile Scrum workflow with daily standups, sprints
+              </li>
+              <li>
+                Reformatted a lot of legacy React code to more modern functional
+                components wtih hooks
+              </li>
+              <li>
+                Upkeep of user feedback and feature requests, as well as bug
+                fixes
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-header">
+            <h4>
+              Ace Relocation Systems • Jan 2022-April 2022{' '}
+              <span className="job-title">Front-End Developer</span>
+            </h4>
+          </div>
+          <div className="card-content">
+            <p>
+              Managing the end-to-end life cycle for the production of software
+              and applications. Overseeing and guiding the analyzing, writing,
+              building, and deployment of software. Overseeing the automated
+              testing and providing feedback to management during the
+              development process.
+            </p>
+            <ul className="knowcap-ul">
+              <li>
+                Integration of VueJS, ReactJS and NodeJS applications into other
+                3rd party APIs and systems
+              </li>
+              <li>Writing modular, reusable, testable and efficient code</li>
+              <li>
+                Design and implementation of low-latency, high-availability, and
+                performant web applications
+              </li>
+              <li>
+                Integration of data storage solutions (SQL Server, Azure Blob
+                Storage)
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="card-header">
+            <h4>
+              Knowcap • 2021-current{' '}
+              <span className="job-title">Software Engineer</span>
+            </h4>
+          </div>
+          <div className="card-content">
+            <p>
+              Utilizing MERN stack to develop an API that allows companies to
+              agree to pay a service provider based on revenue for a period of
+              time.
+            </p>
+            <ul className="knowcap-ul">
+              <li>
+                Responsible for implementing Plaid API to add user bank
+                accounts, calculate revenue percentage, find income/revenue.
+              </li>
+              <li>
+                Implement test driven development using Jest library for API
+                backend.
+              </li>
+              <li>
+                Use GitHub Actions as the basis for CI/CD pipeline with GCP.
+              </li>
+              <li>
+                Implement OpenAPI v3.0.+ for the backend API to service the
+                frontend.
+              </li>
+              <li>Use JSON Web Tokens for session authorization.</li>
+              <li>React Bootstrap is used for components.</li>
+            </ul>
+          </div>
+        </div>
 
         {/* <!-- CARD #1 --> */}
         <div className="content-body">
@@ -122,10 +207,14 @@ function Experience() {
             </div>
             <div className="card-content">
               <ul>
-                <li>Coordinated and negotiated audio equipment for worldwide arena
-                concert tours and events</li>
-                <li>Closed an annual average of $500k+ in sales and budget
-                management</li>
+                <li>
+                  Coordinated and negotiated audio equipment for worldwide arena
+                  concert tours and events
+                </li>
+                <li>
+                  Closed an annual average of $500k+ in sales and budget
+                  management
+                </li>
               </ul>
             </div>
           </div>
@@ -141,10 +230,14 @@ function Experience() {
             </div>
             <div className="card-content">
               <ul>
-                <li>Sourced and maintained client relationships for a luxury
-                private jet charter service</li>
-                <li>Coordinated aircraft operators with international hubs on
-                logistics and sourcing aircraft{' '}</li>
+                <li>
+                  Sourced and maintained client relationships for a luxury
+                  private jet charter service
+                </li>
+                <li>
+                  Coordinated aircraft operators with international hubs on
+                  logistics and sourcing aircraft{' '}
+                </li>
               </ul>
             </div>
           </div>

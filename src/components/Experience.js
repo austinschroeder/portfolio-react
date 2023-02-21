@@ -89,8 +89,8 @@ function Experience() {
         <div className="card">
           <div className="card-header">
             <h4>
-              Knowcap • 2021-current{' '}
-              <span className="job-title">Software Engineer</span>
+              Knowcap • Nov 2021-Jan 2022{' '}
+              <span className="job-title">Contract Role-Software Engineer</span>
             </h4>
           </div>
           <div className="card-content">

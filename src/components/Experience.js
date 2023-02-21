@@ -39,11 +39,11 @@ function Experience() {
                 Unit testing
               </li>
               <li>
-                Maintain Agile Scrum workflow with daily standups, sprints
+                Agile Scrum workflow with daily standups, sprints, and PR review
               </li>
               <li>
                 Reformatted a lot of legacy React code to more modern functional
-                components wtih hooks
+                components with hooks
               </li>
               <li>
                 Upkeep of user feedback and feature requests, as well as bug

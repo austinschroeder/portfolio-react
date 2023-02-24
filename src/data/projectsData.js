@@ -17,7 +17,7 @@ const projects = [
     description:
       'Fun trivia game that pulls questions from Open Trivia Database API.  Built to better understand Typescript and Styled Components.',
     bullets: [
-      'Got creative with complicated CSS',
+      'Experimented with creative CSS techniques',
       'Paid close attention to async/await and speed of API calls',
       'Easily customizable to add more questions or change difficulty of questions pulled from API',
     ],

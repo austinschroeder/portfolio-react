@@ -1,20 +1,21 @@
 // **LIVES IN DIV className=CONTAINER**
 
 const skillNames = [
-  "Javascript",
-  "HTML",
-  "CSS",
-  "React",
-  "Googling",
-  "Node.js",
-  "Bootstrap",
-  "jQuery",
-  "Express",
-  "Mongo",
-  "MongoDB",
-  "Python",
-  "Django",
-  "PostgreSQL",
+  'Javascript',
+  'React',
+  'Typescript',
+  'HTML',
+  'CSS',
+  'Googling',
+  'Node.js',
+  'Bootstrap',
+  'jQuery',
+  'Express',
+  'Mongo',
+  'MongoDB',
+  'Python',
+  'Django',
+  'PostgreSQL',
 ];
 
 function Skills() {

@@ -53,25 +53,25 @@ const projects = [
     link: 'https://austinschroeder.github.io/sass-learn/index.html',
     gh: 'https://github.com/austinschroeder/sass-learn',
   },
-  {
-    name: '"Remember this?"',
-    image: memories,
-    description: (
-      <>
-        A responsive web application that enables users to upload an image file
-        or “memory”, with a title, creator, short message, and image tags.
-        <br />
-        <i>(Please allow time for Heroku server to start up)</i>
-      </>
-    ),
-    bullets: [
-      'Implemented CRUD API, where users can like posts',
-      'Built to learn React using Hooks and Redux for data store',
-    ],
-    tech: 'React + Redux, Node, Express, MongoDB, Material-UI',
-    link: 'https://memories-austin.netlify.app/',
-    gh: 'https://github.com/austinschroeder/memories-client',
-  },
+  // {
+  //   name: '"Remember this?"',
+  //   image: memories,
+  //   description: (
+  //     <>
+  //       A responsive web application that enables users to upload an image file
+  //       or “memory”, with a title, creator, short message, and image tags.
+  //       <br />
+  //       <i>(Please allow time for Heroku server to start up)</i>
+  //     </>
+  //   ),
+  //   bullets: [
+  //     'Implemented CRUD API, where users can like posts',
+  //     'Built to learn React using Hooks and Redux for data store',
+  //   ],
+  //   tech: 'React + Redux, Node, Express, MongoDB, Material-UI',
+  //   link: 'https://memories-austin.netlify.app/',
+  //   gh: 'https://github.com/austinschroeder/memories-client',
+  // },
   {
     name: '"Etch-A-Sketch"',
     image: etch,
@@ -130,39 +130,39 @@ const projects = [
     link: 'https://pages.git.generalassemb.ly/austinschroeder/Austin-JS-Racer/',
     gh: 'https://github.com/austinschroeder/javascript-racer',
   },
-  {
-    name: 'Melty',
-    image: melty,
-    description:
-      'A site for customers interested in finding plant-based cheeses in their area. Includes information about top brands of plant-based cheeses including a product picture, and user reviews.',
-    bullets: [
-      'Implemented CRUD API, able to create a brand and product by uploading details to DB',
-      'Decorative buttons animate using CSS',
-    ],
-    tech: 'HTML, MongoDB, Mongoose, NodeJS, ExpressJS',
-    link: 'https://melty-plant-based.herokuapp.com/',
-    gh: 'https://github.com/austinschroeder/melty',
-  },
-  {
-    name: 'Cage-DB',
-    image: cage,
-    description: (
-      <>
-        Cage DB is a RESTful web app containing a detailed database on Nicolas
-        Cage movies
-        <br />
-        <i>(Please allow time for Heroku server to start up)</i>
-      </>
-    ),
-    bullets: [
-      'Used Photoshop to edit custom images',
-      'Completed over the course of 2 days',
-      'No build system.  Raw HTML, JS',
-    ],
-    tech: 'Python, Django, HTML, CSS-Materialize',
-    link: 'https://cage-db.herokuapp.com/',
-    gh: 'https://github.com/austinschroeder/cage-db',
-  },
+  // {
+  //   name: 'Melty',
+  //   image: melty,
+  //   description:
+  //     'A site for customers interested in finding plant-based cheeses in their area. Includes information about top brands of plant-based cheeses including a product picture, and user reviews.',
+  //   bullets: [
+  //     'Implemented CRUD API, able to create a brand and product by uploading details to DB',
+  //     'Decorative buttons animate using CSS',
+  //   ],
+  //   tech: 'HTML, MongoDB, Mongoose, NodeJS, ExpressJS',
+  //   link: 'https://melty-plant-based.herokuapp.com/',
+  //   gh: 'https://github.com/austinschroeder/melty',
+  // },
+  // {
+  //   name: 'Cage-DB',
+  //   image: cage,
+  //   description: (
+  //     <>
+  //       Cage DB is a RESTful web app containing a detailed database on Nicolas
+  //       Cage movies
+  //       <br />
+  //       <i>(Please allow time for Heroku server to start up)</i>
+  //     </>
+  //   ),
+  //   bullets: [
+  //     'Used Photoshop to edit custom images',
+  //     'Completed over the course of 2 days',
+  //     'No build system.  Raw HTML, JS',
+  //   ],
+  //   tech: 'Python, Django, HTML, CSS-Materialize',
+  //   link: 'https://cage-db.herokuapp.com/',
+  //   gh: 'https://github.com/austinschroeder/cage-db',
+  // },
 ];
 
 export default projects;

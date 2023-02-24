@@ -73,7 +73,20 @@ function Experience() {
                 Integration of VueJS, ReactJS and NodeJS applications into other
                 3rd party APIs and systems
               </li>
-              <li>Writing modular, reusable, testable and efficient code</li>
+              <li>
+                Created{' '}
+                <a
+                  href="https://customer.acerelocation.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Ace Customer Portal
+                </a>
+                <p>
+                  Example- Order Number: <b>AHU192580</b> Email:{' '}
+                  <b>CHAHAL408@GMAIL.COM</b>
+                </p>
+              </li>
               <li>
                 Design and implementation of low-latency, high-availability, and
                 performant web applications

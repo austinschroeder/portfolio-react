@@ -23,8 +23,8 @@ body {
 /*NAVBAR*/
 .navbar {
   background-color: #054c61;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+  position: fixed; 
+  top: 0; 
   width: 100%;
   display: flex;
   justify-content: center;
@@ -116,8 +116,6 @@ body {
 
 /*ARROW LINK*/
 #down-arrow {
-  /*position: absolute;
-  width: 100%;*/
   margin-top: auto;
   text-align: center;
   margin-bottom: 50px;
@@ -133,7 +131,6 @@ body {
 
 /*CONTENT*/
 .container {
-  /*sets up flexbox*/
   display: flex;
   flex-direction: column;
 }
@@ -336,6 +333,11 @@ h4 {
   font-size: larger;
   margin-left: 20px;
   height: 30px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* border-radius: 5px; */
+
 }
 
 .project-link:visited {

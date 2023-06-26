@@ -50,7 +50,7 @@ const Skills = () => {
       <div className="side-content"></div>
       <div className="main-content">
         <div className="content-header">
-          <a className="anchor" name="skills"></a>
+          <div id="skills" className="anchor" />
           <h2>Skills</h2>
         </div>
         <div className="content-body">

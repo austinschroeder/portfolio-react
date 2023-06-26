@@ -9,7 +9,7 @@ const Experience = () => {
       <div className="side-content"></div>
       <div className="main-content">
         <div className="content-header">
-          <a className="anchor" name="experience"></a>
+          <div id="experience" className="anchor" />
           <h2>Experience</h2>
         </div>
 

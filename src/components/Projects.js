@@ -5,7 +5,6 @@ import projects from '../data/projectsData';
 
 const ProjectCard = (props) => {
   const { project } = props;
-  console.log(props);
   const bulletItems = project.bullets.map((bullet) => {
     return (
       <li key={bullet} className="project-bullets">

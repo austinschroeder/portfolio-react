@@ -7,7 +7,7 @@ const Education = () => {
       <div className="side-content"></div>
       <div className="main-content">
         <div className="content-header">
-          <a className="anchor" name="education"></a>
+          <div id="education" className="anchor" />
           <h2>Education</h2>
         </div>
         <div className="content-body">

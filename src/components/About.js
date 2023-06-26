@@ -7,7 +7,7 @@ const About = () => {
       <div className="side-content"></div>
       <div className="main-content">
         <div className="content-header">
-          <a className="anchor" name="about"></a>
+          <div className="anchor" name="about" />
           <h2 id="about-header">About</h2>
         </div>
         <div className="content-body">

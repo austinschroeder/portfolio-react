@@ -1,14 +1,14 @@
-// import tortoise from '../images/tortoise.png';
 import x from '../images/x-2.png';
 import covid19 from '../images/covid19-2.png';
-import memories from '../images/memories2.png';
 import lasso from '../images/lasso.png';
-import melty from '../images/melty.png';
 import jsracer from '../images/jsracer.png';
-import cage from '../images/cage.png';
 import etch from '../images/etch.png';
 import rta from '../images/rta.png';
 import trivia from '../images/trivia.png';
+// import memories from '../images/memories2.png';
+// import melty from '../images/melty.png';
+// import cage from '../images/cage.png';
+// import tortoise from '../images/tortoise.png';
 
 const projects = [
   {

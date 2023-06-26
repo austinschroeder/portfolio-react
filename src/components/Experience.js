@@ -39,7 +39,8 @@ const Experience = () => {
                 Unit testing
               </li>
               <li>
-                Agile Scrum workflow with daily standups, sprints, and PR review
+                Assembled successful arguments to convince team to shift from
+                history of using MUI to custom components
               </li>
               <li>
                 Reformatted a lot of legacy React code to more modern functional
@@ -48,6 +49,10 @@ const Experience = () => {
               <li>
                 Upkeep of user feedback and feature requests, as well as bug
                 fixes
+              </li>
+              <li>
+                Build and maintain new flagship web app- using modern React,
+                Typescript, Context, StyledComponents
               </li>
             </ul>
           </div>

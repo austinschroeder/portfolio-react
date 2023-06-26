@@ -4,10 +4,10 @@ const About = () => {
   return (
     // <!-- BEGIN ABOUT -->
     <div className="row white box-shadow">
+      <div className="anchor" name="about" />
       <div className="side-content"></div>
       <div className="main-content">
         <div className="content-header">
-          <div className="anchor" name="about" />
           <h2 id="about-header">About</h2>
         </div>
         <div className="content-body">

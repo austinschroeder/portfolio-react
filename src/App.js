@@ -35,8 +35,8 @@ const App = () => {
       <Header />
       <About />
       <Skills />
-      <Projects />
       <Experience />
+      <Projects />
       {/* <ImgCarousel /> */}
       <Education />
       {/* <Contact /> */}

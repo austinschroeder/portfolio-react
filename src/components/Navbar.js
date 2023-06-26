@@ -15,11 +15,11 @@ const NavBar = () => {
       <a className="skills" href="#skills">
         Skills
       </a>
-      <a className="projects" href="#projects">
-        Projects
-      </a>
       <a className="experience" href="#experience">
         Experience
+      </a>
+      <a className="projects" href="#projects">
+        Projects
       </a>
       <a className="education" href="#education">
         Education

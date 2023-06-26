@@ -18,11 +18,11 @@ const skillNames = [
   'PostgreSQL',
 ];
 
-function Skills() {
+const Skills = () => {
   useEffect(() => {
     const skillItems = document.querySelectorAll('.li-skills');
 
-    function fadeInSkills() {
+    const fadeInSkills = () => {
       skillItems.forEach((skillItem) => {
         const bounding = skillItem.getBoundingClientRect();
         const windowBottom = window.innerHeight;
@@ -31,7 +31,7 @@ function Skills() {
           skillItem.classList.add('fade-in');
         }
       });
-    }
+    };
 
     // Add event listener for scrolling
     window.addEventListener('scroll', fadeInSkills);
@@ -68,6 +68,6 @@ function Skills() {
       <div className="side-content"></div>
     </div>
   );
-}
+};
 
 export default Skills;

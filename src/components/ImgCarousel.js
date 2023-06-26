@@ -14,7 +14,7 @@ import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 // import sll from '../images/carousel/sll.jpg';
 // https://create-react-app.dev/docs/using-the-public-folder/
 
-function ImgCarousel() {
+const ImgCarousel = () => {
   return (
     <div className="splide-container">
       <Splide>
@@ -36,6 +36,6 @@ function ImgCarousel() {
       </Splide>
     </div>
   );
-}
+};
 
 export default ImgCarousel;

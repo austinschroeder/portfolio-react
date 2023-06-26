@@ -22,7 +22,7 @@ import React, { useEffect } from 'react';
 //   document.getElementById('about-header').scrollIntoView({behavior:"smooth"});
 // })
 
-function App() {
+const App = () => {
   // Google Analytics
   useEffect(() => {
     ReactGA.initialize('G-HWLV1VERR4');
@@ -44,6 +44,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

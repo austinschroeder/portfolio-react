@@ -1,6 +1,6 @@
 // **LIVES IN DIV className=CONTAINER**
 
-function Header() {
+const Header = () => {
   return (
     // <!-- HEADER -->
     <div className="jumbotron">
@@ -62,6 +62,6 @@ function Header() {
     </div>
     //   <!-- END HEADER -->
   );
-}
+};
 
 export default Header;

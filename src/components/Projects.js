@@ -3,7 +3,7 @@ import projects from '../data/projectsData';
 
 // **LIVES IN DIV className=CONTAINER**
 
-function ProjectCard(props) {
+const ProjectCard = (props) => {
   const { project } = props;
   console.log(props);
   const bulletItems = project.bullets.map((bullet) => {
@@ -45,9 +45,9 @@ function ProjectCard(props) {
       </div>
     </div>
   );
-}
+};
 
-function Projects(props) {
+const Projects = (props) => {
   return (
     <div className="row bgflipped">
       <div className="side-content-sm"></div>
@@ -64,6 +64,6 @@ function Projects(props) {
       <div className="side-content-sm"></div>
     </div>
   );
-}
+};
 
 export default Projects;

@@ -3,7 +3,7 @@ import ContactForm from './ContactForm';
 
 // **LIVES IN DIV className=CONTAINER**
 
-function Contact() {
+const Contact = () => {
   return (
     // <!-- BEGIN CONTACT -->
 
@@ -33,6 +33,6 @@ function Contact() {
     </div>
     //   {/* END CONTACT --></div> */}
   );
-}
+};
 
 export default Contact;

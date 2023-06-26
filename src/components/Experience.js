@@ -2,7 +2,7 @@
 
 // **LIVES IN DIV className=CONTAINER**
 
-function Experience() {
+const Experience = () => {
   return (
     // <!-- BEGIN EXPERIENCE -->
     <div className="row">
@@ -260,6 +260,6 @@ function Experience() {
     </div>
     //   <!-- END EXPERIENCE -->
   );
-}
+};
 
 export default Experience;

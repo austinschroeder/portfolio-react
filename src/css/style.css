@@ -368,6 +368,15 @@ h4 {
   font-size: 1.2em;
 }
 
+.fade {
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
 /*CONTACT*/
 .blue {
   background: #054c61;

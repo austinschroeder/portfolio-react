@@ -1,4 +1,4 @@
-// **LIVES IN DIV className=CONTAINER**
+import React, { useEffect } from 'react';
 
 const skillNames = [
   'Javascript',
@@ -19,8 +19,33 @@ const skillNames = [
 ];
 
 function Skills() {
+  useEffect(() => {
+    const skillItems = document.querySelectorAll('.li-skills');
+
+    function fadeInSkills() {
+      skillItems.forEach((skillItem) => {
+        const bounding = skillItem.getBoundingClientRect();
+        const windowBottom = window.innerHeight;
+
+        if (bounding.top < windowBottom) {
+          skillItem.classList.add('fade-in');
+        }
+      });
+    }
+
+    // Add event listener for scrolling
+    window.addEventListener('scroll', fadeInSkills);
+
+    // Trigger the fade-in effect for initial skills in view
+    fadeInSkills();
+
+    // Clean up the event listener on unmount
+    return () => {
+      window.removeEventListener('scroll', fadeInSkills);
+    };
+  }, []);
+
   return (
-    // <!-- BEGIN SKILLS -->
     <div className="row white box-shadow">
       <div className="side-content"></div>
       <div className="main-content">
@@ -32,7 +57,7 @@ function Skills() {
           <ul className="ul-skills">
             {skillNames.map((skillName) => {
               return (
-                <li key={skillName} className="li-skills">
+                <li key={skillName} className="li-skills fade">
                   {skillName}
                 </li>
               );
@@ -42,7 +67,6 @@ function Skills() {
       </div>
       <div className="side-content"></div>
     </div>
-    //   <!-- END SKILLS -->
   );
 }
 

@@ -1,5 +1,3 @@
-// **LIVES IN DIV className=CONTAINER**
-
 const Header = () => {
   return (
     // <!-- HEADER -->

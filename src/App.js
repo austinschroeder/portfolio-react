@@ -25,7 +25,6 @@ const App = () => {
   // Google Analytics
   useEffect(() => {
     ReactGA.initialize('G-HWLV1VERR4');
-    // ReactGA.pageview(window.location.pathname + window.location.search);
     ReactGA.send('pageview');
   }, []);
 

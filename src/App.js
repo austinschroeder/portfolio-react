@@ -38,7 +38,6 @@ const App = () => {
       <Projects />
       {/* <ImgCarousel /> */}
       <Education />
-      {/* <Contact /> */}
       <Footer />
     </div>
   );

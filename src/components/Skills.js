@@ -33,7 +33,6 @@ const Skills = () => {
       });
     };
 
-    // Add event listener for scrolling
     window.addEventListener('scroll', fadeInSkills);
 
     // Trigger the fade-in effect for initial skills in view

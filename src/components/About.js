@@ -2,7 +2,6 @@
 
 const About = () => {
   return (
-    // <!-- BEGIN ABOUT -->
     <div className="row white box-shadow">
       <div className="anchor" name="about" />
       <div className="side-content"></div>
@@ -24,7 +23,6 @@ const About = () => {
       </div>
       <div className="side-content"></div>
     </div>
-    //   <!-- END ABOUT -->
   );
 };
 

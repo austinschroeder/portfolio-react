@@ -5,12 +5,27 @@ import jsracer from '../images/jsracer.png';
 import etch from '../images/etch.png';
 import rta from '../images/rta.png';
 import trivia from '../images/trivia.png';
+import acePortal from '../images/ace-portal.png';
 // import memories from '../images/memories2.png';
 // import melty from '../images/melty.png';
 // import cage from '../images/cage.png';
 // import tortoise from '../images/tortoise.png';
 
 const projects = [
+  {
+    name: 'ACE Reloaction Customer Portal',
+    image: acePortal,
+    description:
+      'Live customer-facing portal where users can login and view their move details, upload/view documents, and communicate with their move coordinator.',
+    bullets: [
+      'Order Number: AHU192580 Email: CHAHAL408@GMAIL.COM',
+      'Connected to real time customer database',
+      'Babel and Webpack for transpiling and bundling',
+      'Javascript animations and transitions',
+    ],
+    tech: 'React',
+    link: 'https://customer.acerelocation.com/',
+  },
   {
     name: 'React/Typescript Triva Game',
     image: trivia,

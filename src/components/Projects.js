@@ -32,14 +32,16 @@ const ProjectCard = (props) => {
           >
             Live Demo
           </a>
-          <a
-            className="project-link"
-            href={project.gh}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Source Code
-          </a>
+          {project.gh && (
+            <a
+              className="project-link"
+              href={project.gh}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Source Code
+            </a>
+          )}
         </div>
       </div>
     </div>

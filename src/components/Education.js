@@ -41,7 +41,7 @@ const Education = () => {
               </h4>
             </div>
             <div className="card-content">
-              <p>BA Entertainment Business and Recording Engineering</p>
+              <p>BS Entertainment Business and Recording Engineering</p>
               <p>-Perfect Attendance award</p>
             </div>
           </div>

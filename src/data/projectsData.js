@@ -23,7 +23,7 @@ const projects = [
       'Babel and Webpack for transpiling and bundling',
       'Javascript animations and transitions',
     ],
-    tech: 'React',
+    tech: 'React, SQL Server, Azure Blob Storage',
     link: 'https://customer.acerelocation.com/',
   },
   {

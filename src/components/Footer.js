@@ -53,7 +53,7 @@ const Footer = () => {
                   <i className="fa fa-envelope-o footer" aria-hidden="true"></i>
                 </a>
               </li>
-              <p>&copy; AUSTIN SCHROEDER 2021</p>
+              <p>&copy; AUSTIN SCHROEDER 2023</p>
             </ul>
           </div>
           {/* ////////////////////////////////// */}

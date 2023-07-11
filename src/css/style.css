@@ -436,6 +436,7 @@ h4 {
 }
 
 /* *************************************** */
+/* Mobile  */
 @media screen and (max-width: 600px) {
   .navbar a {
     font-size: 12px;

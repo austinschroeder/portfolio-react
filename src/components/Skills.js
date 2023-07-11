@@ -3,8 +3,8 @@ import React, { useEffect } from 'react';
 const skillNames = [
   'Javascript',
   'React',
-  'Angular',
   'Typescript',
+  'Angular',
   'HTML',
   'CSS',
   'Googling',

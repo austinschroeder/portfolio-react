@@ -6,6 +6,7 @@ import etch from '../images/etch.png';
 import rta from '../images/rta.png';
 import trivia from '../images/trivia.png';
 import acePortal from '../images/ace-portal.png';
+import taskTracker from '../images/task-tracker.png';
 // import memories from '../images/memories2.png';
 // import melty from '../images/melty.png';
 // import cage from '../images/cage.png';
@@ -39,6 +40,20 @@ const projects = [
     tech: 'React, Typescript, Styled Components',
     link: 'https://austinschroeder.github.io/react-trivia/',
     gh: 'https://github.com/austinschroeder/react-trivia',
+  },
+  {
+    name: 'Angular Task-Tracker',
+    image: taskTracker,
+    description:
+      'Task tracker app built with Angular.  Users can add, delete, and toggle reminders for tasks.  Data is stored in local storage.',
+    bullets: [
+      'Using a few bits of styling and icons from fortawesom/angular-font-awesome v6',
+      'CRUD functionality using JSON-server for local backend setup',
+      'Using Angular Router for page changes',
+      'Easy local env setup instruction',
+    ],
+    tech: 'Angular CLI, JSON-server, Angular Router',
+    gh: 'https://github.com/austinschroeder/angular-learn',
   },
   {
     name: 'Audio Analyzer',

@@ -24,14 +24,16 @@ const ProjectCard = (props) => {
         <p className="project-tech">Tech used: {project.tech}</p>
         <ul>{bulletItems}</ul>
         <div className="project-links-container">
-          <a
-            className="project-link"
-            href={project.link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Demo
-          </a>
+          {project.link && (
+            <a
+              className="project-link"
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          )}
           {project.gh && (
             <a
               className="project-link"

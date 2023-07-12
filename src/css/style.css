@@ -435,6 +435,17 @@ h4 {
   margin: -5px;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container p {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
 /* *************************************** */
 /* Mobile  */
 @media screen and (max-width: 600px) {
@@ -488,6 +499,16 @@ h4 {
 
   .social {
     padding: 15px;
+  }
+
+  /* FOOTER */
+  .image-container {
+    flex-direction: column;
+  }
+
+  .image-container p {
+    margin-right: 0;
+    margin-bottom: 5px;
   }
 }
 /* *************************************** */

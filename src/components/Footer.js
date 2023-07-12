@@ -1,4 +1,5 @@
 // **LIVES IN DIV className=CONTAINER**
+import googleAnalytics from '../images/google-analytics.png';
 
 const Footer = () => {
   return (
@@ -8,9 +9,6 @@ const Footer = () => {
         <div className="side-content"></div>
         <div className="main-content">
           <div className="content-header"></div>
-          {/* <div className="content-body"> */}
-
-          {/* ////////////////////////////////// */}
           <div className="jumbotron-social">
             <ul className="ul-social">
               <li className="li-social-links">
@@ -53,12 +51,17 @@ const Footer = () => {
                   <i className="fa fa-envelope-o footer" aria-hidden="true"></i>
                 </a>
               </li>
-              <p>&copy; AUSTIN SCHROEDER 2023</p>
+              <div className="image-container">
+                <p>&copy; AUSTIN SCHROEDER 2023</p>
+                <img
+                  height="100"
+                  width="100"
+                  src={googleAnalytics}
+                  alt="googleAnalytics"
+                />
+              </div>
             </ul>
           </div>
-          {/* ////////////////////////////////// */}
-
-          {/* </div> */}
         </div>
         <div className="side-content"></div>
       </div>

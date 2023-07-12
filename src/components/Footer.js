@@ -54,8 +54,8 @@ const Footer = () => {
               <div className="image-container">
                 <p>&copy; AUSTIN SCHROEDER 2023</p>
                 <img
-                  height="100"
-                  width="100"
+                  height="40"
+                  width="88"
                   src={googleAnalytics}
                   alt="googleAnalytics"
                 />

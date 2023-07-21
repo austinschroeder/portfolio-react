@@ -15,8 +15,6 @@ import React, { useEffect } from 'react';
 
 // import ImgCarousel from './components/ImgCarousel';
 
-// const aboutButton = document.getElementsById('about');
-
 // document.getElementById('about').addEventListener('click', function(){
 //   document.getElementById('about-header').scrollIntoView({behavior:"smooth"});
 // })

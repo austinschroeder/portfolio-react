@@ -21,7 +21,7 @@ body {
 }
 
 /*NAVBAR*/
-.navbar {
+/* .navbar {
   background-color: #054c61;
   position: fixed; 
   top: 0; 
@@ -46,7 +46,7 @@ body {
   position: relative;
   top: -70px;
   visibility: hidden;
-}
+} */
 
 /* :root {
   --gradient: linear-gradient(

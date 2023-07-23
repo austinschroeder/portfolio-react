@@ -61,28 +61,28 @@ body {
 } */
 
 /*JUMBOTRON*/
-.jumbotron {
-  height: 100vh; /*height to 100% of view height*/
+/* .jumbotron {
+  height: 100vh;
   background: #054c61 url(../images/gradient-bkgrnd.png);
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-}
+} */
 
-.jumbotron-text {
+/* .jumbotron-text { */
   /*TAGLINE UNDER NAME*/
-  font-weight: 400;
+  /* font-weight: 400;
   font-size: 2em;
   color: white;
   text-align: center;
   padding-top: 150px;
-}
+} */
 
-.jumbotron-text h1 {
+/* .jumbotron-text h1 { */
   /*AUSTIN SCHROEDER*/
-  font-weight: 800;
+  /* font-weight: 800;
   font-size: 3em;
   margin-bottom: 0;
   user-select: none;
@@ -91,10 +91,10 @@ body {
 .jumbotron-text p {
   margin: 0;
   user-select: none;
-}
+} */
 
 /*SOCIAL LINKS*/
-.ul-social {
+/* .ul-social {
   text-align: center;
   padding-left: 0;
 }
@@ -112,10 +112,10 @@ body {
 
 .social:hover {
   text-shadow: 2px 2px 5px white;
-}
+} */
 
 /*ARROW LINK*/
-#down-arrow {
+/* #down-arrow {
   margin-top: auto;
   text-align: center;
   margin-bottom: 50px;
@@ -127,12 +127,14 @@ body {
 
 #down-arrow:hover {
   text-shadow: 2px 2px 5px white;
-}
+} */
 
 /*CONTENT*/
 .container {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  /* border: 1px solid red; */
 }
 
 .bgflipped {
@@ -422,7 +424,7 @@ h4 {
 }
 
 /* FOOTER */
-.footer {
+/* .footer {
   color: #054c61;
   transition: none;
 }
@@ -444,26 +446,26 @@ h4 {
 .image-container p {
   margin-bottom: 0;
   margin-right: 20px;
-}
+} */
 
 /* *************************************** */
 /* Mobile  */
 @media screen and (max-width: 600px) {
-  .navbar a {
+  /* .navbar a {
     font-size: 12px;
     padding: 14px 10px;
-  }
+  } */
 
-  .jumbotron-text h1 {
+  /* .jumbotron-text h1 {
     font-size: 3rem;
-  }
-  .jumbotron-text {
+  } */
+  /* .jumbotron-text {
     font-size: 1rem;
-  }
+  } */
 
-  .jumbotron {
+  /* .jumbotron {
     height: 600px;
-  }
+  } */
 
   .side-content {
     flex: 0 0 25px;
@@ -502,13 +504,13 @@ h4 {
   }
 
   /* FOOTER */
-  .image-container {
+  /* .image-container {
     flex-direction: column;
   }
 
   .image-container p {
     margin-right: 0;
     margin-bottom: 5px;
-  }
+  } */
 }
 /* *************************************** */

@@ -196,30 +196,30 @@ li {
 }
 
 /* EXPERIENCE */
-.experience-flex {
+/* .experience-flex {
   display: flex;
-}
+} */
 
-.audio-engineer {
+/* .audio-engineer {
   margin-bottom: 0;
-}
+} */
 
 .splide-container {
   width: 100%;
 }
 
-.knowcap-ul li {
+/* .knowcap-ul li {
   margin-bottom: 10px;
-}
+} */
 
-.gig-list {
+/* .gig-list {
   columns: 3;
   padding-left: 15px;
-}
+} */
 
-.gig-list li {
+/* .gig-list li {
   margin: 0 5px;
-}
+} */
 
 /* marquee li {
   display: inline;
@@ -237,27 +237,27 @@ marquee li::before {
 } */
 
 /*EDUCATION*/
-.card {
+/* .card {
   display: flex;
   flex-direction: column;
   background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   margin-bottom: 30px;
-}
+} */
 
-.card-header {
+/* .card-header {
   padding: 0.75rem 1.25rem;
   background-color: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.075);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-}
+} */
 
-.card-content {
+/* .card-content {
   padding: 0.25rem 1.25rem;
   flex: 1 1 auto;
-}
+} */
 
 h4 {
   margin: 0;
@@ -266,9 +266,9 @@ h4 {
   color: grey;
 }
 
-.job-title {
+/* .job-title {
   float: right;
-}
+} */
 
 /*PROJECTS*/
 .project-card {
@@ -471,9 +471,10 @@ h4 {
     flex: 0 0 25px;
   }
 
+  /* Being used for project cards as well  */
   .project-card {
     flex-direction: column;
-  }
+  } 
 
   .project-image {
     border-right: none;
@@ -491,13 +492,13 @@ h4 {
   }
 
   /* EXPERIENCE */
-  .card-header h4 {
+  /* .card-header h4 {
     font-size: 1em;
-  }
+  } */
 
-  .gig-list {
+  /* .gig-list {
     columns: 1;
-  }
+  } */
 
   .social {
     padding: 15px;

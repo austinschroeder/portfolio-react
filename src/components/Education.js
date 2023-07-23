@@ -1,4 +1,5 @@
-// **LIVES IN DIV className=CONTAINER**
+import React from 'react';
+import styled from 'styled-components';
 
 const Education = () => {
   return (
@@ -12,13 +13,13 @@ const Education = () => {
         </div>
         <div className="content-body">
           {/* <!-- EDUCATION 1 --> */}
-          <div className="card">
-            <div className="card-header">
+          <Card>
+            <CardHeader>
               <h4>
                 General Assembly <span className="job-title">2021</span>
               </h4>
-            </div>
-            <div className="card-content">
+            </CardHeader>
+            <CardContent>
               <p>
                 <u>Software Engineering Immersive</u>
               </p>
@@ -31,20 +32,20 @@ const Education = () => {
                 full-stack web applications, debugging, and collaboration using
                 git version control
               </p>
-            </div>
-          </div>
+            </CardContent>
+          </Card>
           {/* <!-- EDUCATION 2 --> */}
-          <div className="card">
-            <div className="card-header">
+          <Card>
+            <CardHeader>
               <h4>
                 Full Sail <span className="job-title">2005-2007</span>
               </h4>
-            </div>
-            <div className="card-content">
+            </CardHeader>
+            <CardContent>
               <p>BS Entertainment Business and Recording Engineering</p>
               <p>-Perfect Attendance award</p>
-            </div>
-          </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
       <div className="side-content"></div>
@@ -52,5 +53,27 @@ const Education = () => {
     //   <!-- END EDUCATION -->
   );
 };
+
+const Card = styled.div`
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin-bottom: 30px;
+`;
+
+const CardHeader = styled.div`
+  padding: 0.75rem 1.25rem;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+`;
+
+const CardContent = styled.div`
+  padding: 0.25rem 1.25rem;
+  flex: 1 1 auto;
+`;
 
 export default Education;

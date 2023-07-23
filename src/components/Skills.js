@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
+import styled from 'styled-components';
 
 const skillNames = [
   'Javascript',
@@ -20,16 +21,16 @@ const skillNames = [
 ];
 
 const Skills = () => {
-  useEffect(() => {
-    const skillItems = document.querySelectorAll('.li-skills');
+  const skillItems = useRef([]);
 
+  useEffect(() => {
     const fadeInSkills = () => {
-      skillItems.forEach((skillItem) => {
+      skillItems.current.forEach((skillItem) => {
         const bounding = skillItem.getBoundingClientRect();
         const windowBottom = window.innerHeight;
 
         if (bounding.top < windowBottom) {
-          skillItem.classList.add('fade-in');
+          skillItem.style.opacity = 1;
         }
       });
     };
@@ -46,28 +47,89 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="row white box-shadow">
-      <div className="side-content"></div>
-      <div className="main-content">
-        <div className="content-header">
-          <div id="skills" className="anchor" />
-          <h2>Skills</h2>
-        </div>
-        <div className="content-body">
-          <ul className="ul-skills">
-            {skillNames.map((skillName) => {
+    <Row>
+      <SideContent />
+      <MainContent>
+        <ContentHeader>
+          <Anchor id="skills" />
+          <H2>Skills</H2>
+        </ContentHeader>
+        <ContentBody>
+          <SkillList>
+            {skillNames.map((skillName, index) => {
               return (
-                <li key={skillName} className="li-skills fade">
+                <SkillItem
+                  ref={(el) => (skillItems.current[index] = el)}
+                  key={skillName}
+                >
                   {skillName}
-                </li>
+                </SkillItem>
               );
             })}
-          </ul>
-        </div>
-      </div>
-      <div className="side-content"></div>
-    </div>
+          </SkillList>
+        </ContentBody>
+      </MainContent>
+      <SideContent />
+    </Row>
   );
 };
 
 export default Skills;
+
+const Row = styled.div`
+  display: flex;
+  background: white;
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+`;
+
+const SideContent = styled.div`
+  flex: 0 0 16.6%;
+`;
+
+const MainContent = styled.div`
+  flex: 1;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+`;
+
+const ContentHeader = styled.div``;
+
+const Anchor = styled.div`
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
+`;
+
+const H2 = styled.h2`
+  font-weight: 200;
+  font-size: 2rem;
+  color: #054c61;
+  text-transform: uppercase;
+  text-align: center;
+`;
+
+const ContentBody = styled.div`
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.75);
+`;
+
+const SkillList = styled.ul`
+  text-align: center;
+  padding-left: 0;
+`;
+
+const SkillItem = styled.li`
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: white;
+  background: #043949;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+  opacity: 0;
+  transition: opacity 3s ease;
+`;

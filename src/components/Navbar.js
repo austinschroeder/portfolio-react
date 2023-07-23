@@ -13,11 +13,19 @@ const NavBar = () => {
       <a onClick={handleAboutClick} href="#about">
         About
       </a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#education">Education</a>
-      <a target="_blank" rel="noreferrer" href={resume}>
+      <a href="#skills" aria-label="Skills Section">
+        Skills
+      </a>
+      <a href="#experience" aria-label="Experience Section">
+        Experience
+      </a>
+      <a href="#projects" aria-label="Projects Section">
+        Projects
+      </a>
+      <a href="#education" aria-label="Education Section">
+        Education
+      </a>
+      <a target="_blank" rel="noreferrer" href={resume} aria-label="Resume">
         Resume
       </a>
     </NavBarContainer>

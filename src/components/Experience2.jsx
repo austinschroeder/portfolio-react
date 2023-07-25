@@ -108,17 +108,13 @@ const Experience = () => {
             </h4>
           </CardHeader>
           <CardContent>
-            <p>Implemented test driven development and CI/CD pipeline</p>
+            <p>Knowcap is an inclusive startup ecosystem that supports aspiring entrepreneurs.</p>
             <Ul>
               <li>
                 Responsible for implementing Plaid API to add user bank
                 accounts, calculate revenue percentage, and find income/revenue
               </li>
               <li>Implemented test driven development and CI/CD pipeline</li>
-              <li>
-                Implement OpenAPI v3.0.+ for the backend API to service the
-                frontend
-              </li>
               <li>
                 Implement OpenAPI v3.0.+ for the backend API to service the
                 frontend

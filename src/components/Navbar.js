@@ -46,7 +46,10 @@ const NavBarContainer = styled.nav`
     color: white;
     padding: 10px 16px;
     text-decoration: none;
-    // Underline animation
+
+    @media screen and (max-width: 600px) {
+      padding: 10px 8px;
+    }
   }
 
   p {
@@ -75,7 +78,7 @@ const NavBarContainer = styled.nav`
 
   @media screen and (max-width: 600px) {
     font-size: 12px;
-    padding: 14px 6px;
+    padding: 1px 10px;
   }
 `;
 

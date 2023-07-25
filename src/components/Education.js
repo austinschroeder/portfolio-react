@@ -5,7 +5,7 @@ const Education = () => {
   return (
     // <!-- BEGIN EDUCATION -->
     <div className="row box-shadow">
-      <div className="side-content"></div>
+      <SideContent />
       <div className="main-content">
         <div className="content-header">
           <Anchor id="education" />
@@ -57,8 +57,15 @@ const Education = () => {
 const Anchor = styled.div`
   display: block;
   position: relative;
-  top: -60px;
+  top: -10px;
   visibility: hidden;
+`;
+
+const SideContent = styled.div`
+  flex: 0 0 16.6%;
+  @media screen and (max-width: 600px) {
+    flex: 0 0 25px;
+  }
 `;
 
 const Card = styled.div`

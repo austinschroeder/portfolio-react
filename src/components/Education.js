@@ -7,10 +7,8 @@ const Education = () => {
     <Row>
       <SideContent />
       <MainContent>
-        {/* <div className="content-header"> */}
         <Anchor id="education" />
         <h2>Education</h2>
-        {/* </div> */}
         <div className="content-body">
           {/* <!-- EDUCATION 1 --> */}
           <Card>

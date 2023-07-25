@@ -52,7 +52,7 @@ const Skills = () => {
       <MainContent>
         <ContentHeader>
           <Anchor id="skills" />
-          <H2>Skills</H2>
+          <h2>Skills</h2>
         </ContentHeader>
         <ContentBody>
           <SkillList>
@@ -103,13 +103,13 @@ const Anchor = styled.div`
   visibility: hidden;
 `;
 
-const H2 = styled.h2`
-  font-weight: 200;
-  font-size: 2rem;
-  color: #054c61;
-  text-transform: uppercase;
-  text-align: center;
-`;
+// const H2 = styled.h2`
+//   font-weight: 200;
+//   font-size: 2rem;
+//   color: #054c61;
+//   text-transform: uppercase;
+//   text-align: center;
+// `;
 
 const ContentBody = styled.div`
   line-height: 1.5;

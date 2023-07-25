@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
 }
 
 * {
-  transition: all 0.15s ease-in-out;
+  transition: all 0.1s ease-in-out;
   box-sizing: border-box;
 }
 
@@ -15,6 +15,14 @@ body {
   font-family: 'Raleway', sans-serif;
   background: rgba(242, 242, 242, 0.6);
   margin: 0;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 2rem;
+  color: #054c61;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h4 {

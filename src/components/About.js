@@ -6,7 +6,7 @@ const About = () => {
       <Row>
         <SideContent />
         <MainContent>
-          <Header id="about-header">About</Header>
+          <h2 id="about-header">About</h2>
           <Body>
             A self-motivated tech geek, woodworker, and devoted father +
             husband. Reaching the top of my field in Audio Engineering and
@@ -53,13 +53,13 @@ const MainContent = styled.div`
   margin-bottom: 3rem;
 `;
 
-const Header = styled.h2`
-  font-weight: 200;
-  font-size: 2rem;
-  color: #054c61;
-  text-transform: uppercase;
-  text-align: center;
-`;
+// const Header = styled.h2`
+//   font-weight: 200;
+//   font-size: 2rem;
+//   color: #054c61;
+//   text-transform: uppercase;
+//   text-align: center;
+// `;
 
 const Body = styled.p`
   line-height: 1.5;

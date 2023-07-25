@@ -9,7 +9,7 @@ const Experience = () => {
       <MainContent>
         <div>
           <div id="experience" />
-          <H2>Experience</H2>
+          <h2>Experience</h2>
         </div>
 
         {/* <!-- CARD #0 --> */}
@@ -277,12 +277,12 @@ const MainContent = styled.div`
   margin-bottom: 3rem;
 `;
 
-const H2 = styled.h2`
-  font-weight: 200;
-  font-size: 2rem;
-  color: #054c61;
-  text-transform: uppercase;
-`;
+// const H2 = styled.h2`
+//   font-weight: 200;
+//   font-size: 2rem;
+//   color: #054c61;
+//   text-transform: uppercase;
+// `;
 
 const Card = styled.div`
   display: flex;

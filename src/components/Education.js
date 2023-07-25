@@ -13,7 +13,7 @@ const Education = () => {
           <Card>
             <CardHeader>
               <h4>
-                General Assembly <JobTitle>2021</JobTitle>
+                General Assembly <JobTitle>Year of graduation- 2021</JobTitle>
               </h4>
             </CardHeader>
             <CardContent>
@@ -33,7 +33,7 @@ const Education = () => {
           <Card>
             <CardHeader>
               <h4>
-                Full Sail <JobTitle>2005-2007</JobTitle>
+                Full Sail <JobTitle>Year of graduation- 2007</JobTitle>
               </h4>
             </CardHeader>
             <CardContent>

@@ -13,7 +13,7 @@ const Experience = () => {
         <Card>
           <CardHeader>
             <h4>
-              Eventric • April 2022-current{' '}
+              Eventric • April 2022-July 2023{' '}
               <JobTitle>Front-End Developer</JobTitle>
             </h4>
           </CardHeader>
@@ -34,20 +34,20 @@ const Experience = () => {
                 Unit testing
               </li>
               <li>
-                Assembled successful arguments to convince team to shift from
-                history of using MUI to custom components
+                Pioneered the initiative to adopt newer technologies and develop
+                custom UI components
               </li>
               <li>
-                Reformatted a lot of legacy React code to more modern functional
-                components with hooks
+                Modernized codebase to latest React standards using Context API
+                and functional components
               </li>
               <li>
-                Upkeep of user feedback and feature requests, as well as bug
-                fixes
+                Confidently led demos and presentations to non technical team
+                members and users
               </li>
               <li>
-                Build and maintain new flagship web app- using modern React,
-                Typescript, Context, StyledComponents
+                Designed, architected, and developed flagship web app alongside
+                design team
               </li>
             </Ul>
           </CardContent>
@@ -88,12 +88,14 @@ const Experience = () => {
                 </p>
               </li>
               <li>
-                Design and implementation of low-latency, high-availability, and
-                performant web applications
+                Integrated Puppeteer.js to automate repetitive internal tasks
+                (processing reports, updating order statuses, etc) saving
+                employees 5+ hours of time per week
               </li>
               <li>
-                Integration of data storage solutions (SQL Server, Azure Blob
-                Storage)
+                Utilized Azure cloud storage to create a system enabling users
+                to manage documents related to their move, such as contracts,
+                permits, and insurance forms
               </li>
             </Ul>
           </CardContent>
@@ -107,29 +109,25 @@ const Experience = () => {
             </h4>
           </CardHeader>
           <CardContent>
-            <p>
-              Utilizing MERN stack to develop an API that allows companies to
-              agree to pay a service provider based on revenue for a period of
-              time.
-            </p>
+            <p>Implemented test driven development and CI/CD pipeline</p>
             <Ul>
               <li>
                 Responsible for implementing Plaid API to add user bank
-                accounts, calculate revenue percentage, find income/revenue.
+                accounts, calculate revenue percentage, and find income/revenue
               </li>
+              <li>Implemented test driven development and CI/CD pipeline</li>
               <li>
-                Implement test driven development using Jest library for API
-                backend.
-              </li>
-              <li>
-                Use GitHub Actions as the basis for CI/CD pipeline with GCP.
+                Implement OpenAPI v3.0.+ for the backend API to service the
+                frontend
               </li>
               <li>
                 Implement OpenAPI v3.0.+ for the backend API to service the
-                frontend.
+                frontend
               </li>
-              <li>Use JSON Web Tokens for session authorization.</li>
-              <li>React Bootstrap is used for components.</li>
+              <li>
+                Worked with the Auth team to migrate the UI away from
+                cookie-based session management to JWT
+              </li>
             </Ul>
           </CardContent>
         </Card>

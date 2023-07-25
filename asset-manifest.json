@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.d4d28f12.chunk.css",
-    "main.js": "/static/js/main.6add1403.chunk.js",
-    "main.js.map": "/static/js/main.6add1403.chunk.js.map",
+    "main.js": "/static/js/main.3b89feb0.chunk.js",
+    "main.js.map": "/static/js/main.3b89feb0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f80c763f.js",
     "runtime-main.js.map": "/static/js/runtime-main.f80c763f.js.map",
     "static/js/2.7fdc8dad.chunk.js": "/static/js/2.7fdc8dad.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/gradient-bkgrnd.076722d3.png": "/static/media/gradient-bkgrnd.076722d3.png",
     "static/media/jsracer.379559cb.png": "/static/media/jsracer.379559cb.png",
     "static/media/lasso.8848eb54.png": "/static/media/lasso.8848eb54.png",
-    "static/media/resume.63e76781.pdf": "/static/media/resume.63e76781.pdf",
+    "static/media/resume.0ba651d2.pdf": "/static/media/resume.0ba651d2.pdf",
     "static/media/rta.e6f5dc52.png": "/static/media/rta.e6f5dc52.png",
     "static/media/task-tracker.0de01302.png": "/static/media/task-tracker.0de01302.png",
     "static/media/trivia.51834a59.png": "/static/media/trivia.51834a59.png",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.f80c763f.js",
     "static/js/2.7fdc8dad.chunk.js",
     "static/css/main.d4d28f12.chunk.css",
-    "static/js/main.6add1403.chunk.js"
+    "static/js/main.3b89feb0.chunk.js"
   ]
 }

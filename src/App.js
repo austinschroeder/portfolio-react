@@ -1,5 +1,6 @@
 import './App.css';
 import './css/style.css';
+import styled from 'styled-components';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -27,7 +28,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="container">
+    <Container>
       <Navbar />
       <Header />
       <About />
@@ -37,8 +38,13 @@ const App = () => {
       {/* <ImgCarousel /> */}
       <Education />
       <Footer />
-    </div>
+    </Container>
   );
 };
 
+const Container = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+`;
 export default App;

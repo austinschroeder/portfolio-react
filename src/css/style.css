@@ -130,12 +130,11 @@ body {
 } */
 
 /*CONTENT*/
-.container {
+/* .container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
-}
+} */
 
 /* .bgflipped {
 
@@ -500,9 +499,9 @@ h4 {
     columns: 1;
   } */
 
-  .social {
+  /* .social {
     padding: 15px;
-  }
+  } */
 
   /* FOOTER */
   /* .image-container {

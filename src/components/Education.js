@@ -4,13 +4,13 @@ import styled from 'styled-components';
 const Education = () => {
   return (
     // <!-- BEGIN EDUCATION -->
-    <div className="row box-shadow">
+    <Row>
       <SideContent />
-      <div className="main-content">
-        <div className="content-header">
-          <Anchor id="education" />
-          <h2>Education</h2>
-        </div>
+      <MainContent>
+        {/* <div className="content-header"> */}
+        <Anchor id="education" />
+        <h2>Education</h2>
+        {/* </div> */}
         <div className="content-body">
           {/* <!-- EDUCATION 1 --> */}
           <Card>
@@ -47,9 +47,9 @@ const Education = () => {
             </CardContent>
           </Card>
         </div>
-      </div>
+      </MainContent>
       <div className="side-content"></div>
-    </div>
+    </Row>
     //   <!-- END EDUCATION -->
   );
 };
@@ -57,8 +57,18 @@ const Education = () => {
 const Anchor = styled.div`
   display: block;
   position: relative;
-  top: -10px;
+  top: -30px;
   visibility: hidden;
+`;
+
+const Row = styled.div`
+  display: flex;
+`;
+
+const MainContent = styled.div`
+  flex: 1;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 `;
 
 const SideContent = styled.div`

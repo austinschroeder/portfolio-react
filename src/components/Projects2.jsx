@@ -2,6 +2,7 @@ import React from 'react';
 import projects from '../data/projectsData';
 import styled from 'styled-components';
 
+
 const ProjectCard = (props) => {
   const { project } = props;
   const ProjectBullets = styled.li`

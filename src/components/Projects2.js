@@ -1,7 +1,6 @@
 import React from 'react';
 import projects from '../data/projectsData';
 import styled from 'styled-components';
-// import { device } from '../device';
 
 const ProjectCard = (props) => {
   const { project } = props;
@@ -75,7 +74,6 @@ const SideContentSm = styled.div`
   flex: 0 0 10%;
 
   @media screen and (max-width: 600px) {
-    /* flex: 0 0 35px; */
   }
 `;
 
@@ -87,7 +85,6 @@ const MainContentLg = styled.div`
 
 const ProjectsContainer = styled.div`
   display: flex;
-  /* border: 1px solid red; */
   background-color: white;
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
 `;
@@ -140,10 +137,6 @@ const ProjectContent = styled.div`
   justify-content: center;
   flex-direction: column;
 `;
-
-// const ProjectHeader = styled.h4`
-//   margin: 0;
-// `;
 
 const ProjectDescription = styled.p`
   margin: 0;

@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 const Experience = () => {
   return (
-    // <!-- BEGIN EXPERIENCE -->
     <Row>
       <SideContent />
       <MainContent>
@@ -251,7 +250,6 @@ const Experience = () => {
       </MainContent>
       <SideContent />
     </Row>
-    //   <!-- END EXPERIENCE -->
   );
 };
 

@@ -1,6 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
 
-/* https://scalablecss.com/styled-components-global-styles/ */
 const GlobalStyle = createGlobalStyle`
   html {
   scroll-behavior: smooth;
@@ -14,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
 body {
   font-family: 'Raleway', sans-serif;
   background: rgba(242, 242, 242, 0.6);
-  /* background:#F2F2F2; */
   margin: 0;
 }
 

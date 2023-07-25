@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e848280.chunk.css",
-    "main.js": "/static/js/main.c4930718.chunk.js",
-    "main.js.map": "/static/js/main.c4930718.chunk.js.map",
+    "main.css": "/static/css/main.eeaee4a4.chunk.css",
+    "main.js": "/static/js/main.7346bf97.chunk.js",
+    "main.js.map": "/static/js/main.7346bf97.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f80c763f.js",
     "runtime-main.js.map": "/static/js/runtime-main.f80c763f.js.map",
-    "static/js/2.59287ff8.chunk.js": "/static/js/2.59287ff8.chunk.js",
-    "static/js/2.59287ff8.chunk.js.map": "/static/js/2.59287ff8.chunk.js.map",
+    "static/js/2.2cae6415.chunk.js": "/static/js/2.2cae6415.chunk.js",
+    "static/js/2.2cae6415.chunk.js.map": "/static/js/2.2cae6415.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1e848280.chunk.css.map": "/static/css/main.1e848280.chunk.css.map",
-    "static/js/2.59287ff8.chunk.js.LICENSE.txt": "/static/js/2.59287ff8.chunk.js.LICENSE.txt",
+    "static/css/main.eeaee4a4.chunk.css.map": "/static/css/main.eeaee4a4.chunk.css.map",
+    "static/js/2.2cae6415.chunk.js.LICENSE.txt": "/static/js/2.2cae6415.chunk.js.LICENSE.txt",
     "static/media/ace-portal.bcd2d797.png": "/static/media/ace-portal.bcd2d797.png",
     "static/media/covid19-2.d99c9c69.png": "/static/media/covid19-2.d99c9c69.png",
     "static/media/etch.cf0a68ea.png": "/static/media/etch.cf0a68ea.png",
     "static/media/google-analytics.c7788048.png": "/static/media/google-analytics.c7788048.png",
-    "static/media/style.css": "/static/media/gradient-bkgrnd.076722d3.png",
+    "static/media/gradient-bkgrnd.076722d3.png": "/static/media/gradient-bkgrnd.076722d3.png",
     "static/media/jsracer.379559cb.png": "/static/media/jsracer.379559cb.png",
     "static/media/lasso.8848eb54.png": "/static/media/lasso.8848eb54.png",
-    "static/media/resume.156a8c49.pdf": "/static/media/resume.156a8c49.pdf",
+    "static/media/resume.8aca0507.pdf": "/static/media/resume.8aca0507.pdf",
     "static/media/rta.e6f5dc52.png": "/static/media/rta.e6f5dc52.png",
     "static/media/task-tracker.0de01302.png": "/static/media/task-tracker.0de01302.png",
     "static/media/trivia.51834a59.png": "/static/media/trivia.51834a59.png",
@@ -25,8 +25,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f80c763f.js",
-    "static/js/2.59287ff8.chunk.js",
-    "static/css/main.1e848280.chunk.css",
-    "static/js/main.c4930718.chunk.js"
+    "static/js/2.2cae6415.chunk.js",
+    "static/css/main.eeaee4a4.chunk.css",
+    "static/js/main.7346bf97.chunk.js"
   ]
 }

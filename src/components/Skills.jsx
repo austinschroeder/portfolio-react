@@ -78,10 +78,10 @@ export default Skills;
 
 const Row = styled.div`
   display: flex;
-  background: white;
-  /* -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75); */
-  /* -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75); */
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  background: ${(props) => props.theme.colors.white};
+  -webkit-box-shadow: 0px 0px 1px 0px ${(props) => props.theme.colors.lightBlack};
+  -moz-box-shadow: 0px 0px 1px 0px ${(props) => props.theme.colors.lightBlack};
+  box-shadow: 0px 0px 1px 0px ${(props) => props.theme.colors.lightBlack};
 `;
 
 const SideContent = styled.div`
@@ -103,17 +103,9 @@ const Anchor = styled.div`
   visibility: hidden;
 `;
 
-// const H2 = styled.h2`
-//   font-weight: 200;
-//   font-size: 2rem;
-//   color: #054c61;
-//   text-transform: uppercase;
-//   text-align: center;
-// `;
-
 const ContentBody = styled.div`
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.75);
+  color: ${(props) => props.theme.colors.lightBlack};
 `;
 
 const SkillList = styled.ul`
@@ -125,11 +117,11 @@ const SkillItem = styled.li`
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: white;
-  background: #043949;
+  color: ${(props) => props.theme.colors.white};
+  background: ${props => props.theme.colors.skills};
   list-style: none;
-  cursor: default;
   font-size: 1.2em;
   opacity: 0;
   transition: opacity 3s ease;
+  cursor: default;
 `;

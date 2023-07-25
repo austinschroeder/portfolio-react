@@ -1,7 +1,8 @@
 import './App.css';
-import './css/style.css';
 import GlobalStyle from './globalStyles';
+import { theme } from './theme';
 import styled from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -15,12 +16,6 @@ import Footer from './components/Footer';
 import ReactGA from 'react-ga4';
 import React, { useEffect } from 'react';
 
-// import ImgCarousel from './components/ImgCarousel';
-
-// document.getElementById('about').addEventListener('click', function(){
-//   document.getElementById('about-header').scrollIntoView({behavior:"smooth"});
-// })
-
 const App = () => {
   // Google Analytics
   useEffect(() => {
@@ -29,7 +24,7 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <GlobalStyle />
       <Container>
         <Navbar />
@@ -38,11 +33,10 @@ const App = () => {
         <Skills />
         <Experience />
         <Projects />
-        {/* <ImgCarousel /> */}
         <Education />
         <Footer />
       </Container>
-    </>
+    </ThemeProvider>
   );
 };
 

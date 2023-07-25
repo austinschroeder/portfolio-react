@@ -67,7 +67,7 @@ const MainContent = styled.div`
 
 const ContentBody = styled.div`
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.75);
+  color: ${(props) => props.theme.colors.lightBlack};
 `;
 
 const SideContent = styled.div`
@@ -80,7 +80,7 @@ const SideContent = styled.div`
 const Card = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.white};
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   margin-bottom: 30px;

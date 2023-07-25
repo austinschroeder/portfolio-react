@@ -103,7 +103,7 @@ const Anchor = styled.div`
 
 const ContentBody = styled.div`
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.75);
+  color: ${(props) => props.theme.colors.lightBlack};
 `;
 
 const SideContentSm = styled.div`
@@ -118,14 +118,14 @@ const MainContentLg = styled.div`
 
 const ProjectsContainer = styled.div`
   display: flex;
-  background-color: white;
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  background-color: ${(props) => props.theme.colors.white};
+  box-shadow: 0px 0px 1px 0px ${(props) => props.theme.colors.lightBlack};
 `;
 
 const ProjectCardWrapper = styled.div`
   display: flex;
   flex-direction: row;
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.white};
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 5px;
   margin-bottom: 30px;
@@ -209,8 +209,8 @@ const ProjectLink = styled.a`
   }
 
   &:hover {
-    background-color: #054c61;
-    color: white;
+    background-color: ${(props) => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.white};
     text-decoration: none;
     height: 30px;
   }

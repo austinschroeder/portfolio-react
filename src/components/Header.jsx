@@ -69,7 +69,7 @@ const Header = () => {
 
 const StyledA = styled.a`
   font-size: 3em;
-  color: white;
+  color: ${(props) => props.theme.colors.white};
   padding: 20px;
 
   &:hover {
@@ -79,7 +79,7 @@ const StyledA = styled.a`
 
 const Jumbotron = styled.div`
   height: 100vh;
-  background: #054c61 url(${backgroundGradient});
+  background:${(props) => props.theme.colors.primary} url(${backgroundGradient});
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0;
@@ -90,7 +90,7 @@ const Jumbotron = styled.div`
 const JumbotronText = styled.div`
   font-weight: 400;
   font-size: 2em;
-  color: white;
+  color: ${(props) => props.theme.colors.white};
   text-align: center;
   padding-top: 150px;
 
@@ -137,7 +137,7 @@ const ArrowLink = styled.div`
   margin-bottom: 50px;
 
   a {
-    color: white;
+    color: ${(props) => props.theme.colors.white};
 
     &:hover {
       text-shadow: 2px 2px 5px white;

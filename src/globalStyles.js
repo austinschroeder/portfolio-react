@@ -12,14 +12,14 @@ const GlobalStyle = createGlobalStyle`
 
 body {
   font-family: 'Raleway', sans-serif;
-  background: rgba(242, 242, 242, 0.6);
+  background: ${(props) => props.theme.colors.backgroundGrey};
   margin: 0;
 }
 
 h2 {
   font-weight: 200;
   font-size: 2rem;
-  color: #054c61;
+  color: ${(props) => props.theme.colors.primary};
   text-transform: uppercase;
   text-align: center;
 }
@@ -28,7 +28,7 @@ h4 {
   margin: 0;
   font-weight: 600;
   font-size: 1.25em;
-  color: rgba(0, 0, 0, 0.75);
+  color: ${(props) => props.theme.colors.lightBlack};
 
   @media screen and (max-width: 600px) {
       font-size: 1em;

@@ -34,7 +34,7 @@ const NavBar = () => {
 
 const NavBarContainer = styled.nav`
   z-index: 3;
-  background-color: #054c61;
+  background-color: ${(props) => props.theme.colors.primary};
   position: fixed;
   top: 0;
   width: 100%;
@@ -43,7 +43,7 @@ const NavBarContainer = styled.nav`
 
   a {
     font-weight: 200;
-    color: white;
+    color: ${(props) => props.theme.colors.white};
     padding: 10px 16px;
     text-decoration: none;
 
@@ -65,7 +65,7 @@ const NavBarContainer = styled.nav`
     right: 0;
     width: 0;
     bottom: -1px;
-    background: white;
+    background: ${(props) => props.theme.colors.white};
     height: 2px;
     transition: width 0.3s ease;
   }
@@ -73,7 +73,6 @@ const NavBarContainer = styled.nav`
   p:hover:after {
     width: 100%;
     left: 0;
-    /* text-shadow: 2px 2px 5px white; */
   }
 
   @media screen and (max-width: 600px) {

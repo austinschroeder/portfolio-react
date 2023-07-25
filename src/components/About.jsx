@@ -42,10 +42,9 @@ const Container = styled.div`
 
 const Row = styled.div`
   display: flex;
-  /* background: white; */
-  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 1px 0px ${(props) => props.theme.colors.lightBlack};
+  -moz-box-shadow: 0px 0px 1px 0px ${(props) => props.theme.colors.lightBlack};
+  box-shadow: 0px 0px 1px 0px ${(props) => props.theme.colors.lightBlack};
 `;
 
 const SideContent = styled.div`
@@ -61,17 +60,9 @@ const MainContent = styled.div`
   margin-bottom: 3rem;
 `;
 
-// const Header = styled.h2`
-//   font-weight: 200;
-//   font-size: 2rem;
-//   color: #054c61;
-//   text-transform: uppercase;
-//   text-align: center;
-// `;
-
 const Body = styled.p`
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.75);
+  color: ${(props) => props.theme.colors.lightBlack};
 `;
 
 export default About;

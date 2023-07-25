@@ -276,7 +276,7 @@ const MainContent = styled.div`
 const Card = styled.div`
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.white};
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   margin-bottom: 30px;
@@ -284,7 +284,7 @@ const Card = styled.div`
 
 const CardHeader = styled.div`
   padding: 0.75rem 1.25rem;
-  background-color: white;
+  background-color: ${(props) => props.theme.colors.white};
   border-bottom: 1px solid rgba(0, 0, 0, 0.075);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
@@ -307,7 +307,7 @@ const Ul = styled.ul`
 
 const ContentBody = styled.div`
   line-height: 1.5;
-  color: rgba(0, 0, 0, 0.75);
+  color: ${(props) => props.theme.colors.lightBlack};
 `;
 
 const AudioEngineer = styled.p`

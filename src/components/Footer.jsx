@@ -108,7 +108,7 @@ const LiSocialLinks = styled.li`
 
 const Social = styled.a`
   font-size: 3em;
-  color: white;
+  color: ${(props) => props.theme.colors.white};
   padding: 20px;
 
   &:hover {
@@ -117,13 +117,13 @@ const Social = styled.a`
 `;
 
 const FooterIcon = styled.i`
-  color: #054c61;
+  color: ${(props) => props.theme.colors.primary};
   transition: none;
 
   &:hover {
-    color: white;
-    background-color: #054c61;
-    border: 5px solid #054c61;
+    color: ${(props) => props.theme.colors.white};
+    background-color: ${(props) => props.theme.colors.primary};
+    border: 5px solid ${(props) => props.theme.colors.primary};
     border-radius: 5px;
     margin: -5px;
   }

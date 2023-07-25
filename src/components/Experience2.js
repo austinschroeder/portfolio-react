@@ -173,7 +173,7 @@ const Experience = () => {
                 performance morale between management and artist. Highly
                 autonomous.
               </AudioEngineer>
-              <ExperienceFlex>
+              <div>
                 <GigList>
                   <li>Rage Against the Machine • 2020</li>
                   <li>Tom Morello/Audioslave • 2018-2019</li>
@@ -198,7 +198,7 @@ const Experience = () => {
                   <li>Mat Kearney • 2012</li>
                   <li>Cee Lo • 2011-2012</li>
                 </GigList>
-              </ExperienceFlex>
+              </div>
             </CardContent>
             {/* <ImgCarousel /> */}
           </Card>
@@ -279,13 +279,6 @@ const MainContent = styled.div`
   margin-bottom: 3rem;
 `;
 
-// const H2 = styled.h2`
-//   font-weight: 200;
-//   font-size: 2rem;
-//   color: #054c61;
-//   text-transform: uppercase;
-// `;
-
 const Card = styled.div`
   display: flex;
   flex-direction: column;
@@ -301,12 +294,6 @@ const CardHeader = styled.div`
   border-bottom: 1px solid rgba(0, 0, 0, 0.075);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-
-  /* h4 {
-    @media screen and (max-width: 600px) {
-      font-size: 1em;
-    }
-  } */
 `;
 
 const CardContent = styled.div`

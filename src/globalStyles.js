@@ -30,7 +30,7 @@ h4 {
   margin: 0;
   font-weight: 600;
   font-size: 1.25em;
-  /* color: grey; */
+  color: rgba(0, 0, 0, 0.75);
 
   @media screen and (max-width: 600px) {
       font-size: 1em;

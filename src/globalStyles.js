@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
 body {
   font-family: 'Raleway', sans-serif;
   background: rgba(242, 242, 242, 0.6);
+  /* background:#F2F2F2; */
   margin: 0;
 }
 
@@ -29,7 +30,7 @@ h4 {
   margin: 0;
   font-weight: 600;
   font-size: 1.25em;
-  color: grey;
+  /* color: grey; */
 
   @media screen and (max-width: 600px) {
       font-size: 1em;

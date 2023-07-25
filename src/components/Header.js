@@ -19,7 +19,7 @@ const Header = () => {
           <SocialLink>
             <ExternalLink
               href="https://github.com/austinschroeder"
-              ariaLabel="GitHub Profile"
+              aria-label="GitHub Profile"
             >
               <i className="fa fa-github" aria-hidden="true"></i>
             </ExternalLink>
@@ -27,7 +27,7 @@ const Header = () => {
           <SocialLink>
             <ExternalLink
               href="https://www.linkedin.com/in/austin-schroeder100/"
-              ariaLabel="LinkedIn Profile"
+              aria-label="LinkedIn Profile"
             >
               <i className="fa fa-linkedin" aria-hidden="true"></i>
             </ExternalLink>
@@ -35,7 +35,7 @@ const Header = () => {
           <SocialLink>
             <ExternalLink
               href="https://twitter.com/austinshreddar"
-              ariaLabel="Twitter Profile"
+              aria-label="Twitter Profile"
             >
               <i className="fa fa-twitter" aria-hidden="true"></i>
             </ExternalLink>
@@ -44,7 +44,7 @@ const Header = () => {
             <ExternalLink
               href="mailto:
               austinsoundy@gmail.com"
-              ariaLabel="Email Address"
+              aria-label="Email Address"
             >
               <i className="fa fa-envelope-o" aria-hidden="true"></i>
             </ExternalLink>
@@ -109,8 +109,6 @@ const JumbotronText = styled.div`
   }
 
   @media screen and (max-width: 600px) {
-    /* font-size: 1.5em; */
-    /* border: 1px solid yellow; */
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -128,16 +126,6 @@ const SocialContainer = styled.nav`
 
 const SocialLink = styled.li`
   display: inline-block;
-
-  /* a {
-    font-size: 3em;
-    color: white;
-    padding: 20px;
-
-    &:hover {
-      text-shadow: 2px 2px 5px white;
-    }
-  } */
 `;
 
 const ArrowLink = styled.div`

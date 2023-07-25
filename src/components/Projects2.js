@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
         <img alt="" src={project.image} />
       </ProjectImage>
       <ProjectContent>
-        <ProjectHeader>- {project.name} -</ProjectHeader>
+        <h4>- {project.name} -</h4>
         <ProjectDescription>{project.description}</ProjectDescription>
         <ProjectTech>Tech used: {project.tech}</ProjectTech>
         <ul>{bulletItems}</ul>
@@ -132,9 +132,9 @@ const ProjectContent = styled.div`
   flex-direction: column;
 `;
 
-const ProjectHeader = styled.h4`
-  margin: 0;
-`;
+// const ProjectHeader = styled.h4`
+//   margin: 0;
+// `;
 
 const ProjectDescription = styled.p`
   margin: 0;

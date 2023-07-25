@@ -1,4 +1,4 @@
-html {
+/* html {
   scroll-behavior: smooth;
 }
 
@@ -14,11 +14,11 @@ body {
 }
 
 ::selection {
-  background: #c6c6c6; /* WebKit/Blink Browsers */
+  background: #c6c6c6; 
 }
 ::-moz-selection {
-  background: #c6c6c6; /* Gecko Browsers */
-}
+  background: #c6c6c6; 
+} */
 
 /*NAVBAR*/
 /* .navbar {
@@ -203,9 +203,6 @@ li {
   margin-bottom: 0;
 } */
 
-.splide-container {
-  width: 100%;
-}
 
 /* .knowcap-ul li {
   margin-bottom: 10px;
@@ -258,12 +255,12 @@ marquee li::before {
   flex: 1 1 auto;
 } */
 
-h4 {
+/* h4 {
   margin: 0;
   font-weight: 600;
   font-size: 1.25em;
   color: grey;
-}
+} */
 
 /* .job-title {
   float: right;

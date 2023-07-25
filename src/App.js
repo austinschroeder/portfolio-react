@@ -1,5 +1,6 @@
 import './App.css';
 import './css/style.css';
+import GlobalStyle from './globalStyles';
 import styled from 'styled-components';
 
 import Header from './components/Header';
@@ -28,17 +29,20 @@ const App = () => {
   }, []);
 
   return (
-    <Container>
-      <Navbar />
-      <Header />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      {/* <ImgCarousel /> */}
-      <Education />
-      <Footer />
-    </Container>
+    <>
+      <GlobalStyle />
+      <Container>
+        <Navbar />
+        <Header />
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        {/* <ImgCarousel /> */}
+        <Education />
+        <Footer />
+      </Container>
+    </>
   );
 };
 

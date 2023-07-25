@@ -17,6 +17,17 @@ body {
   margin: 0;
 }
 
+h4 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.25em;
+  color: grey;
+
+  @media screen and (max-width: 600px) {
+      font-size: 1em;
+    }
+}
+
 ::selection {
   background: #c6c6c6; /* WebKit/Blink Browsers */
 }

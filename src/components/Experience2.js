@@ -300,11 +300,11 @@ const CardHeader = styled.div`
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 
-  h4 {
+  /* h4 {
     @media screen and (max-width: 600px) {
       font-size: 1em;
     }
-  }
+  } */
 `;
 
 const CardContent = styled.div`

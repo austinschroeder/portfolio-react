@@ -7,11 +7,8 @@ const Experience = () => {
     <Row>
       <SideContent />
       <MainContent>
-        {/* <div> */}
         <Anchor id="experience" />
         <h2>Experience</h2>
-        {/* </div> */}
-
         {/* <!-- CARD #0 --> */}
         <Card>
           <CardHeader>

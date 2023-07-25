@@ -36,6 +36,10 @@ h4 {
     }
 }
 
+li {
+  list-style: square;
+}
+
 ::selection {
   background: #c6c6c6; /* WebKit/Blink Browsers */
 }

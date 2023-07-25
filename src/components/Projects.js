@@ -1,8 +1,6 @@
 import React from 'react';
 import projects from '../data/projectsData';
 
-// **LIVES IN DIV className=CONTAINER**
-
 const ProjectCard = (props) => {
   const { project } = props;
   const bulletItems = project.bullets.map((bullet) => {

@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Experience from './components/Experience2';
 import Education from './components/Education';
-import Projects from './components/Projects';
+import Projects from './components/Projects2';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
 // Google Analytics

@@ -17,9 +17,7 @@ const Education = () => {
               </h4>
             </CardHeader>
             <CardContent>
-              <p>
-                <u>Software Engineering Immersive</u>
-              </p>
+              <p>Software Engineering Immersive</p>
               <p>
                 -650+ hours of full-stack immersive web development challenging
                 12 week curriculum

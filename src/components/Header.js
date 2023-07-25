@@ -19,7 +19,7 @@ const Header = () => {
           <SocialLink>
             <ExternalLink
               href="https://github.com/austinschroeder"
-              aria-label="GitHub Profile"
+              ariaLabel="GitHub Profile"
             >
               <i className="fa fa-github" aria-hidden="true"></i>
             </ExternalLink>
@@ -27,7 +27,7 @@ const Header = () => {
           <SocialLink>
             <ExternalLink
               href="https://www.linkedin.com/in/austin-schroeder100/"
-              aria-label="LinkedIn Profile"
+              ariaLabel="LinkedIn Profile"
             >
               <i className="fa fa-linkedin" aria-hidden="true"></i>
             </ExternalLink>
@@ -35,7 +35,7 @@ const Header = () => {
           <SocialLink>
             <ExternalLink
               href="https://twitter.com/austinshreddar"
-              aria-label="Twitter Profile"
+              ariaLabel="Twitter Profile"
             >
               <i className="fa fa-twitter" aria-hidden="true"></i>
             </ExternalLink>
@@ -44,7 +44,7 @@ const Header = () => {
             <ExternalLink
               href="mailto:
               austinsoundy@gmail.com"
-              aria-label="Email Address"
+              ariaLabel="Email Address"
             >
               <i className="fa fa-envelope-o" aria-hidden="true"></i>
             </ExternalLink>

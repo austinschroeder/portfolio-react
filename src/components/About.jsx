@@ -12,7 +12,7 @@ const About = () => {
             A self-motivated tech geek, woodworker, and devoted father +
             husband. Reaching the top of my field in Audio Engineering and
             Production Management for live events, living through a pandemic and
-            becoming a dad inspired me to transition to into Software
+            becoming a dad inspired me to transition into Software
             Development where I have advanced quickly working on both small and
             large scale applications. I am deeply curious about AI tools,
             component libraries, and API design. I am looking to further develop

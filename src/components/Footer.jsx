@@ -58,7 +58,7 @@ const Footer = () => {
               </Social>
             </LiSocialLinks>
             <ImageContainer>
-              <CopyRight>&copy; AUSTIN SCHROEDER 2023</CopyRight>
+              <CopyRight>&copy; 2023 AUSTIN SCHROEDER</CopyRight>
               <img
                 height="40"
                 width="88"

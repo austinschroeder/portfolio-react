@@ -185,10 +185,10 @@ body {
   text-align: center;
 } */
 
-.content-body {
+/* .content-body {
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.75);
-}
+} */
 
 li {
   list-style: square;
@@ -463,9 +463,9 @@ marquee li::before {
     height: 600px;
   } */
 
-  .side-content {
+  /* .side-content {
     flex: 0 0 25px;
-  }
+  } */
 
   /* Being used for project cards as well  */
   /* .project-card {

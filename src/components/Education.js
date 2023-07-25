@@ -3,18 +3,17 @@ import styled from 'styled-components';
 
 const Education = () => {
   return (
-    // <!-- BEGIN EDUCATION -->
     <Row>
       <SideContent />
       <MainContent>
         <Anchor id="education" />
         <h2>Education</h2>
-        <div className="content-body">
+        <ContentBody>
           {/* <!-- EDUCATION 1 --> */}
           <Card>
             <CardHeader>
               <h4>
-                General Assembly <span className="job-title">2021</span>
+                General Assembly <JobTitle>2021</JobTitle>
               </h4>
             </CardHeader>
             <CardContent>
@@ -36,7 +35,7 @@ const Education = () => {
           <Card>
             <CardHeader>
               <h4>
-                Full Sail <span className="job-title">2005-2007</span>
+                Full Sail <JobTitle>2005-2007</JobTitle>
               </h4>
             </CardHeader>
             <CardContent>
@@ -44,11 +43,10 @@ const Education = () => {
               <p>-Perfect Attendance award</p>
             </CardContent>
           </Card>
-        </div>
+        </ContentBody>
       </MainContent>
-      <div className="side-content"></div>
+      <SideContent />
     </Row>
-    //   <!-- END EDUCATION -->
   );
 };
 
@@ -67,6 +65,11 @@ const MainContent = styled.div`
   flex: 1;
   margin-top: 2rem;
   margin-bottom: 3rem;
+`;
+
+const ContentBody = styled.div`
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.75);
 `;
 
 const SideContent = styled.div`
@@ -98,4 +101,7 @@ const CardContent = styled.div`
   flex: 1 1 auto;
 `;
 
+const JobTitle = styled.span`
+  float: right;
+`;
 export default Education;

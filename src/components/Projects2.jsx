@@ -1,21 +1,52 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import projects from '../data/projectsData';
 import styled from 'styled-components';
 
 
+
 const ProjectCard = (props) => {
-  const { project } = props;
-  const ProjectBullets = styled.li`
-    margin: 0;
-  `;
+  const { project, index } = props;
+
+  const ref = useRef(null);
+
   const bulletItems = project.bullets.map((bullet) => {
     return <ProjectBullets key={bullet}>{bullet}</ProjectBullets>;
   });
 
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        // Add the 'visible' class when the element is in the viewport
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        } else {
+          entry.target.classList.remove('visible');
+        }
+      },
+      {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1,
+      }
+    );
+
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
+
+    return () => {
+      if (ref.current) {
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+        observer.unobserve(ref.current);
+      }
+    };
+  }, []);
+
   return (
-    <ProjectCardWrapper>
+    <ProjectCardWrapper ref={ref} animateDirection={index % 2 === 0 ? 'left' : 'right'}>
       <ProjectImage>
-        <img alt="" src={project.image} />
+        <img alt={project.name} src={project.image} />
       </ProjectImage>
       <ProjectContent>
         <h4>- {project.name} -</h4>
@@ -48,16 +79,20 @@ const Projects = (props) => {
           <Anchor id="projects" />
           <h2>Projects</h2>
         </div>
-        <ContentBobdy>
+        <ContentBody>
           {projects.map((project, index) => {
-            return <ProjectCard project={project} key={index} />;
+            return <ProjectCard project={project} key={project.name} index={index} />;
           })}
-        </ContentBobdy>
+        </ContentBody>
       </MainContentLg>
       <SideContentSm />
     </ProjectsContainer>
   );
 };
+
+const ProjectBullets = styled.li`
+    margin: 0;
+  `;
 
 const Anchor = styled.div`
   display: block;
@@ -66,16 +101,13 @@ const Anchor = styled.div`
   visibility: hidden;
 `;
 
-const ContentBobdy = styled.div`
+const ContentBody = styled.div`
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.75);
 `;
 
 const SideContentSm = styled.div`
   flex: 0 0 10%;
-
-  @media screen and (max-width: 600px) {
-  }
 `;
 
 const MainContentLg = styled.div`
@@ -98,9 +130,17 @@ const ProjectCardWrapper = styled.div`
   border-radius: 5px;
   margin-bottom: 30px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08), 0 3px 6px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+  transform: translateX(${props => props.animateDirection === 'left' ? '-100%' : '100%'});
 
   &:hover {
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+  }
+
+  &.visible {
+    opacity: 1;
+    transform: translateX(0);
   }
 
   @media screen and (max-width: 600px) {

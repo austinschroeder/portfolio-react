@@ -318,11 +318,6 @@ const AudioEngineer = styled.p`
   margin-bottom: 0;
 `;
 
-const ExperienceFlex = styled.div`
-  /* display: flex; */
-  /* border: 1px solid red; */
-`;
-
 const GigList = styled.ul`
   columns: 3;
   padding-left: 15px;

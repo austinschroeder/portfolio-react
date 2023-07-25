@@ -2,10 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   html {
-  scroll-behavior: smooth;
-}
-
-* {
+    scroll-behavior: smooth;
+  }
+  
+  * {
   transition: all 0.1s ease-in-out;
   box-sizing: border-box;
 }

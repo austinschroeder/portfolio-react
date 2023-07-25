@@ -7,6 +7,13 @@ const ExternalLink = ({ href, children, ariaLabel }) => (
   </StyledA>
 );
 
+const handleArrowClick = (e) => {
+  e.preventDefault();
+  document
+    .getElementById('about-header')
+    .scrollIntoView({ behavior: 'smooth' });
+};
+
 const Header = () => {
   return (
     <Jumbotron>
@@ -52,7 +59,7 @@ const Header = () => {
         </ul>
       </SocialContainer>
       <ArrowLink>
-        <a href="#about" aria-label="About Section">
+        <a onClick={handleArrowClick} href="#about" aria-label="About Section">
           <i className="fa fa-chevron-down" aria-hidden="true"></i>
         </a>
       </ArrowLink>

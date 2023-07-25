@@ -79,6 +79,8 @@ const MainContentLg = styled.div`
 
 const ProjectsContainer = styled.div`
   display: flex;
+  /* border: 1px solid red; */
+  background-color: white;
 `;
 
 const ProjectCardWrapper = styled.div`

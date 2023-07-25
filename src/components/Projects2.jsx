@@ -145,6 +145,9 @@ const ProjectCardWrapper = styled.div`
 
   @media screen and (max-width: 600px) {
     flex-direction: column;
+    opacity: 1;
+    transition: none;
+    transform: none;
   }
 `;
 

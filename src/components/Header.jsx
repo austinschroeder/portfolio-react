@@ -78,10 +78,6 @@ const Jumbotron = styled.div`
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
-
-  @media screen and (max-width: 600px) {
-    height: 600px;
-  }
 `;
 
 const JumbotronText = styled.div`

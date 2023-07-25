@@ -4,11 +4,11 @@ import styled from 'styled-components';
 const Education = () => {
   return (
     // <!-- BEGIN EDUCATION -->
-    <div className="row white box-shadow">
+    <div className="row box-shadow">
       <div className="side-content"></div>
       <div className="main-content">
         <div className="content-header">
-          <div id="education" className="anchor" />
+          <Anchor id="education" />
           <h2>Education</h2>
         </div>
         <div className="content-body">
@@ -53,6 +53,13 @@ const Education = () => {
     //   <!-- END EDUCATION -->
   );
 };
+
+const Anchor = styled.div`
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+`;
 
 const Card = styled.div`
   display: flex;

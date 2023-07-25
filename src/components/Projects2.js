@@ -45,7 +45,8 @@ const Projects = (props) => {
       <SideContentSm />
       <MainContentLg>
         <div>
-          <h2 id="projects">Projects</h2>
+          <Anchor id="projects" />
+          <h2>Projects</h2>
         </div>
         <ContentBobdy>
           {projects.map((project, index) => {
@@ -57,6 +58,13 @@ const Projects = (props) => {
     </ProjectsContainer>
   );
 };
+
+const Anchor = styled.div`
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+`;
 
 const ContentBobdy = styled.div`
   line-height: 1.5;
@@ -81,6 +89,7 @@ const ProjectsContainer = styled.div`
   display: flex;
   /* border: 1px solid red; */
   background-color: white;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
 `;
 
 const ProjectCardWrapper = styled.div`

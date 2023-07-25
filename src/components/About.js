@@ -6,7 +6,8 @@ const About = () => {
       <Row>
         <SideContent />
         <MainContent>
-          <h2 id="about-header">About</h2>
+          <Anchor id="about-header" />
+          <h2>About</h2>
           <Body>
             A self-motivated tech geek, woodworker, and devoted father +
             husband. Reaching the top of my field in Audio Engineering and
@@ -26,6 +27,13 @@ const About = () => {
   );
 };
 
+const Anchor = styled.div`
+  display: block;
+  position: relative;
+  top: -30px;
+  visibility: hidden;
+`;
+
 const Container = styled.div`
   width: 100%;
   display: flex;
@@ -34,7 +42,7 @@ const Container = styled.div`
 
 const Row = styled.div`
   display: flex;
-  background: white;
+  /* background: white; */
   -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);

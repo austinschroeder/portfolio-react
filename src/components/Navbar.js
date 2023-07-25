@@ -11,22 +11,22 @@ const NavBar = () => {
   return (
     <NavBarContainer>
       <a onClick={handleAboutClick} href="#about">
-        About
+        <p>About</p>
       </a>
       <a href="#skills" aria-label="Skills Section">
-        Skills
+        <p>Skills</p>
       </a>
       <a href="#experience" aria-label="Experience Section">
-        Experience
+        <p>Experience</p>
       </a>
       <a href="#projects" aria-label="Projects Section">
-        Projects
+        <p>Projects</p>
       </a>
       <a href="#education" aria-label="Education Section">
-        Education
+        <p>Education</p>
       </a>
       <a target="_blank" rel="noreferrer" href={resume} aria-label="Resume">
-        Resume
+        <p>Resume</p>
       </a>
     </NavBarContainer>
   );
@@ -44,17 +44,38 @@ const NavBarContainer = styled.nav`
   a {
     font-weight: 200;
     color: white;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
+    // Underline animation
+  }
 
-    &:hover {
-      text-shadow: 2px 2px 5px white;
-    }
+  p {
+    margin: 0;
+    padding: 3px 0;
+    position: relative;
+    display: inline-block;
+  }
 
-    @media screen and (max-width: 600px) {
-      font-size: 12px;
-      padding: 14px 6px;
-    }
+  p:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0;
+    bottom: -1px;
+    background: white;
+    height: 2px;
+    transition: width 0.3s ease;
+  }
+
+  p:hover:after {
+    width: 100%;
+    left: 0;
+    /* text-shadow: 2px 2px 5px white; */
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 12px;
+    padding: 14px 6px;
   }
 `;
 

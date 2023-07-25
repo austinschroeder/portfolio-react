@@ -79,8 +79,8 @@ export default Skills;
 const Row = styled.div`
   display: flex;
   background: white;
-  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
+  /* -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75); */
+  /* -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75); */
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.75);
 `;
 
@@ -99,7 +99,7 @@ const ContentHeader = styled.div``;
 const Anchor = styled.div`
   display: block;
   position: relative;
-  top: -70px;
+  top: -60px;
   visibility: hidden;
 `;
 

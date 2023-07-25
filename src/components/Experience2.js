@@ -7,10 +7,10 @@ const Experience = () => {
     <Row>
       <SideContent />
       <MainContent>
-        <div>
-          <div id="experience" />
-          <h2>Experience</h2>
-        </div>
+        {/* <div> */}
+        <Anchor id="experience" />
+        <h2>Experience</h2>
+        {/* </div> */}
 
         {/* <!-- CARD #0 --> */}
         <Card>
@@ -259,6 +259,13 @@ const Experience = () => {
     //   <!-- END EXPERIENCE -->
   );
 };
+
+const Anchor = styled.div`
+  display: block;
+  position: relative;
+  top: -30px;
+  visibility: hidden;
+`;
 
 const Row = styled.div`
   display: flex;

@@ -57,15 +57,17 @@ const Footer = () => {
                 ></FooterIcon>
               </Social>
             </LiSocialLinks>
-            <ImageContainer>
-              <CopyRight>&copy; 2023 AUSTIN SCHROEDER</CopyRight>
-              <img
-                height="40"
-                width="88"
-                src={googleAnalytics}
-                alt="googleAnalytics"
-              />
-            </ImageContainer>
+            <li>
+              <ImageContainer>
+                <CopyRight>&copy; 2023 AUSTIN SCHROEDER</CopyRight>
+                <img
+                  height="40"
+                  width="88"
+                  src={googleAnalytics}
+                  alt="googleAnalytics"
+                />
+              </ImageContainer>
+            </li>
           </UlSocial>
         </JumbotronSocial>
       </MainContent>

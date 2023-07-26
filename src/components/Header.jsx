@@ -49,8 +49,7 @@ const Header = () => {
           </SocialLink>
           <SocialLink>
             <ExternalLink
-              href="mailto:
-              austinsoundy@gmail.com"
+              href="mailto:austinsoundy@gmail.com"
               ariaLabel="Email Address"
             >
               <i className="fa fa-envelope-o" aria-hidden="true"></i>

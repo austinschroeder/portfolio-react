@@ -14,6 +14,7 @@ body {
   font-family: 'Raleway', sans-serif;
   background: ${(props) => props.theme.colors.backgroundGrey};
   margin: 0;
+  overflow-x: hidden;
 }
 
 h2 {

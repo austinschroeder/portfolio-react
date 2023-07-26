@@ -19,7 +19,7 @@ const Header = () => {
     <Jumbotron>
       <JumbotronText>
         <h1>AUSTIN SCHROEDER</h1>
-        <p>Full-Stack Web Developer in San Diego, CA</p>
+        <p>Software Developer in San Diego, CA</p>
       </JumbotronText>
       <SocialContainer>
         <ul>

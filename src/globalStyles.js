@@ -15,12 +15,6 @@ body {
   background: ${(props) => props.theme.colors.backgroundGrey};
   margin: 0;
   overflow-x: hidden;
-  scrollbar-width: none;  /* Firefox */
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-}
-
-body::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
 }
 
 h2 {

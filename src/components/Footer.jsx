@@ -57,7 +57,7 @@ const Footer = () => {
                 ></FooterIcon>
               </Social>
             </LiSocialLinks>
-            <li>
+            <li style={{ listStyle: 'none' }}>
               <ImageContainer>
                 <CopyRight>&copy; 2023 AUSTIN SCHROEDER</CopyRight>
                 <img

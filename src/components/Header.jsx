@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import backgroundGradient from '../images/gradient-bkgrnd.png';
 
 const ExternalLink = ({ href, children, ariaLabel }) => (
@@ -84,6 +84,7 @@ const Jumbotron = styled.div`
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
 `;
 
 const JumbotronText = styled.div`
@@ -130,16 +131,49 @@ const SocialLink = styled.li`
   display: inline-block;
 `;
 
+const animateBorder = keyframes`
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+`;
+
 const ArrowLink = styled.div`
+  background-color: ${(props) => props.theme.colors.white};
+  opacity: 0.8;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
   margin-top: auto;
   text-align: center;
-  margin-bottom: 50px;
-
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
   a {
-    color: ${(props) => props.theme.colors.white};
+    color: ${(props) => props.theme.colors.primary};
+    text-decoration: none;
 
     &:hover {
       text-shadow: 2px 2px 5px white;
+      &::before {
+        content: '';
+        position: absolute;
+        top: -7px; 
+        left: -7px; 
+        width: 40px;
+        height: 40px;
+        border: 2px solid ${(props) => props.theme.colors.white};
+        opacity: 0.5;
+        border-radius: 50%;
+        opacity: 0;
+        animation: ${animateBorder} 1.2s linear infinite;
+      }
     }
   }
 `;

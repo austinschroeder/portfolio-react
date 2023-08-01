@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
+import useSound from 'use-sound';
+import candygram from "../static/candygram.mp3";
 
 const skillNames = [
   'Javascript',
@@ -21,7 +23,14 @@ const skillNames = [
 ];
 
 const Skills = () => {
+  const [play] = useSound(candygram);
   const skillItems = useRef([]);
+
+  const handleMouseOver = (skillName) => {
+    if (skillName === 'Mongo') {
+      play();
+    }
+  };
 
   useEffect(() => {
     const fadeInSkills = () => {
@@ -61,6 +70,7 @@ const Skills = () => {
                 <SkillItem
                   ref={(el) => (skillItems.current[index] = el)}
                   key={skillName}
+                  onMouseOver={() => handleMouseOver(skillName)}
                 >
                   {skillName}
                 </SkillItem>
@@ -122,6 +132,6 @@ const SkillItem = styled.li`
   list-style: none;
   font-size: 1.2em;
   opacity: 0;
-  transition: opacity 3s ease;
+  transition: opacity 4s ease;
   cursor: default;
 `;
